@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import Fuse from 'fuse.js'
 import Link from 'next/link'
-import type { Entry } from '../lib/types'
+import type { Entry } from '@/app/lib/types'
 
 const FUSE_OPTIONS = {
   keys: [

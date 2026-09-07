@@ -4,7 +4,7 @@
 import Link from 'next/link'
 import { readFileSync } from 'fs'
 import { join } from 'path'
-import type { Entry } from '../lib/types'
+import type { Entry } from '@/app/lib/types'
 
 function getAllEntries(): Entry[] {
   const filePath = join(process.cwd(), 'public', 'd_data', 'entries.json')
