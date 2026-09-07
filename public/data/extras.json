@@ -1,0 +1,2587 @@
+{
+  "grammar": [
+    {
+      "source_sheet": "语法",
+      "pattern": "语法"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "The 把 (bǎ) sentence",
+      "explanation_en": "✔ Use 把 to talk about things being put in places把你的包放在那边吧。 Bǎ nǐ de bāo fàng zài nà biān ba. Put your bag over there. 我把我买的东西放在桌子上了。 Wǒ bǎ wǒ mǎi de dōngxi fàng zài zhuōzi shàngle. I put the things I bought on the table. ✔ Use 把 to talk about things being changed 把面包切成三片。 Bǎ miànbāo qiè chéng sān piàn. Cut the bread into three slices. 我把我的自行车换成了吉他。 Wǒ bǎ wǒ de zìxíngchē huàn chéngle jítā. I swapped my bike for a guitar. 你能不能把这些句子翻译成英文？ Nǐ néng bùnéng bǎ zhèxiē jù zǐ fānyì chéng yīngwén? Can you translate these sentences into English? 我把“夫”写成了“天”。 Wǒ bǎ “fu” xiěchéngle “tiān”. I wrote “天” instead of “夫”. ✔ Use 把 to talk about things being finished or used up 我把作业做完了。 Wǒ bǎ zuòyè zuò wánle. I’ve finished the homework. 不要把我的啤酒喝完了。 Bùyào bǎ wǒ de píjiǔ hē wánle. Don’t finish off all my beer! 她要腾出一个晚上把论文给写完。 Tā yào téng chū yīgè wǎnshàng bǎ lùnwén gěi xiě wán. She’s going to set aside an evening to finish writing her essay."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "比[bǐ]",
+      "explanation_gr": "Σύγκριση -ερος 他 的 姐姐 比 他 的 妹妹 漂亮 Η αδελφή του είναι πιο όμορφη από την αδελφή του"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "极(了）jí （le）"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "不但...而且",
+      "explanation_gr": "όχι μόνο…. . αλλά επίσης",
+      "explanation_en": "bùdàn...érqiě"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "着",
+      "pinyin": "zhe zhuó zhāo zháo",
+      "explanation_gr": "<verb particle marking a continuing progress/state>ή και ταυτόχρονες ενέργειες;",
+      "explanation_en": "1.你为什么跟着我?Nǐ wèishéme gēnzhe wǒ?Γιατί με ακολουθείτε?;2.我买着票了Wǒ mǎizhe piàoleΑγόρασα ένα εισιτήριο 3.听着音乐，他告诉我Tīngzhe yīnyuè, tā gàosu wǒ Ακούγοντας τη μουσική, μου είπε."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "被",
+      "pinyin": "bèi",
+      "explanation_gr": "μόριο για παθητική φωνή,particle for passive voice sentences,by (passive indicator);",
+      "explanation_en": "我被车撞伤了Wǒ bèi chē zhuàng shāngle I was hit by a car"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "是….的",
+      "explanation_gr": "Αυτά τα ρούχα είναι από την Κίνα.",
+      "explanation_en": "这些衣服是从中国来的。"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "中国国家足球队是跟希腊国家足球队比赛的。",
+      "explanation_en": "Zhōngguó guójiā zúqiú duì shì gēn xīlà guójiā zúqiú duì bǐsài de."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "\"越 ... 越...\" (yuè... yuè...)",
+      "explanation_gr": "汽油越来越贵。Qìyóu yuè lái yuè guì.Βενζίνη όσο πάει γίνεται και πιο ακριβή."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "挑战 越 大，我 越 兴奋。Tiǎozhàn yuè dà, wǒ yuè xīngfèn.Όσο μεγαλύτερη είναι η πρόκληση, τοσο πιο είμαι ενθουσιασμένος είμαι."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "我 越 学习 中文，越 觉得 中文 很 难。Wǒ yuè xuéxí zhōngwén, yuè juédé zhōngwén hěn nán.Όσο περισσότερο κινέζικα μαθαίνω , τόσο περισσότερο θεωρώ ότι τα Κινέζικα είναι δύσκολα."
+    },
+    {
+      "source_sheet": "语法",
+      "explanation_gr": "ΔΙΠΛΑΣΙΑΣΜΟΣ ΕΠΙΘΕΤΩΝ"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "Τα επίθετα που φανερώνουν χαρακτηριστικά ή ποιότητα μπορεί συνήθως να διπλασιαστούν.Για τα μονοσύλλαβα ισχύει ¨ΑΑ¨ :红红 ，长长， για τα δισύλλαβα : \"ΑΑΒΒ\" 整整齐齐，干干净净，漂漂亮亮。Δείχνουν μεγαλύτερο βαθμό απ'ο ότι τα μη διπλασμένα. Πχ:干干净净 πεντακάθαρος"
+    },
+    {
+      "source_sheet": "语法",
+      "explanation_gr": "ΣΥΓΚΡΙΣΗ"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "Χ + 有/没有+ Υ+Α",
+      "explanation_gr": "1η ποιότητα ή το χαρακτηριστικό του\"Χ\" είναι στο ίδιο επίπεδο με του \"Υ\".το δεύτερο αντικείμενο χρησιμοποιείται σα κριτίριο (σελ33, #3) 我没有你说得那么漂亮;中秋节有春节那么热闹吗？; 他没有你那么喜欢书法。Αντί για επίθετο ρήματικό. *Χρησιμοποείται περισσότερο η άρνητική σύγκριση."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "Υποκ+有/没有+ουσιαστ(这么/那么) + Επίθετο"
+    },
+    {
+      "source_sheet": "语法",
+      "explanation_gr": "ΡΗΤΟΡΙΚΗ ΕΡΩΤΗΣΗ (σελ 34 ,#3)"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "不是。。。吗？",
+      "explanation_gr": "你不是中国人吗？Είσαι Κινέζος? ( όταν η απάντηση είναι φανερή:是中国人)"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "ερωτηματικές αντωνυμίες χρησιμοποιούνται για έμφαση:我哪儿你说得那么漂亮？(我每有你说得那么漂亮.)"
+    },
+    {
+      "source_sheet": "语法",
+      "explanation_gr": "ΠΡΟΤΑΣΕΙΣ ΠΟΥ ΔΕΙΧΝΟΥΝ ΥΠΑΡΞΗ Η ΕΜΦΑΝΙΣΗ (σελ50, #29)"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "ΥΠΟΚ(PW) + ΡΗΜΑ+着+ΜΛ+ΑΝΤΙΚΕΙΜ.(πρόσωπο ή πράγμα του υπάρχει ) . Ρηματα: 挂,摆,有放,站,坐",
+      "explanation_gr": "墙上挂着中国字画没有？ 2.外面摆着两盆花Wàimiàn bǎi zháo liǎng pénhuā έξω βρίσκονται(υπάρχουν) 2 γλαστρες με λουλούδια."
+    },
+    {
+      "source_sheet": "语法",
+      "explanation_gr": "2.(σελ154,#21)"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "ΥΠΟΚ(πρόσωπο ή πράγμα του υπάρχει) + ρήμα在 +ΑΝΤΙΚΕΙΜ(φράση που δείχνει τοποθεσία)",
+      "explanation_gr": "我在他左边。Βρίσκομαι αριστερά του. 2.我的房子在八号楼九层。Wǒ de fángzi zài bā hào lóu jiǔ céng.Το σπίτι μου είναι στο κτίριο 8 στο 9ο όροφο.;厨房不在客厅的 北边。Η κουζίνα δεν βρίσκεται στην βόρεια πλευρά του σαλονιού."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "ΥΠΟΚ(φράση που δείχνει τοποθεσία) + ρήμα 是ή 有 + ΑΝΤΙΚΕΙΜ(πρόσωπο ή πράγμα του υπάρχει)",
+      "explanation_gr": "卧室外边有一个大阳台。Wòshì wàibian yǒu yīgè dà yángtái.Υπάρχει ένα μεγάλο μπαλκόνι έξω από την κρεβατοκάμαρα.; 图书馆后边是英语系。Túshū guǎn hòubian shì yīngyǔ xì. Το τμήμα Αγγλικών βρίσκεται πίσω από τη βιβλιοθήκη."
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "都 κάτι,τίποτα,τα πάντα,καθόλου,"
+    },
+    {
+      "source_sheet": "语法",
+      "pattern": "我什么都不是。Wǒ shénme dōu bùshì.",
+      "explanation_gr": "Δεν είμαι τίποτα."
+    },
+    {
+      "source_sheet": "γραμμα",
+      "explanation_gr": "Σειρα των στοιχείων στη πρόταση"
+    },
+    {
+      "source_sheet": "γραμμα",
+      "pattern": "进行调查",
+      "pinyin": "jìnxíng diàochá",
+      "explanation_gr": "διεξάγω έρευνα"
+    },
+    {
+      "source_sheet": "γραμμα",
+      "pattern": "喂鱼",
+      "pinyin": "wèi yú",
+      "explanation_gr": "ταίζω τα ψάρια"
+    },
+    {
+      "source_sheet": "γραμμα",
+      "pattern": "刮胡子",
+      "pinyin": "Guā húzi",
+      "explanation_gr": "ξύρισμα;"
+    },
+    {
+      "source_sheet": "γραμμα",
+      "pattern": "偏旁",
+      "pinyin": "piānpáng",
+      "explanation_en": "the left- and right-side of a split Chinese character, often the key (radical) and phonetic Simplified Script 偏旁"
+    },
+    {
+      "source_sheet": "γραμμα",
+      "pattern": "一个辅音和一个元音一起合成形成一个音节。",
+      "explanation_en": "yīgè fǔyīn hé yīgè yuán yīn yīqǐ héchéng xíngchéng yīgè yīnjié."
+    },
+    {
+      "source_sheet": "γραμμα",
+      "pattern": "变格（declension）在语言学上是指名词、代词、冠词、形容词在句子中为了实现特定的语法功能而产生的词形变化。动词的这种屈折变化一般被称作变位。 词通过变格能够反映自身的性（阴性、阳性、中性等）、数（单数、双数、复数等）、格（主格、宾格、与格、属格等）及其他语法范畴上的归属。 许多语言都存在变格。在印欧语系、班图语支、闪米特语族、芬兰-乌戈尔语族、突厥语族诸语言中，变格都是相当重要的一部分。"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "总之",
+      "pinyin": "zǒngzhī",
+      "explanation_gr": "με λίγα λόγια,με μια λέξη,"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "尽管....还是",
+      "pinyin": "jǐnguǎn",
+      "explanation_gr": "παρά,παρότι,παρόλο, * χωρίς δισταγμό",
+      "explanation_en": "#J!Print_Area"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "于是",
+      "pinyin": "Yúshi",
+      "explanation_gr": "Έτσι thereupon; as a result; consequently; thus; hence"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "显然",
+      "pinyin": "xiǎnrán",
+      "explanation_gr": "προφανώς,clear, evident, obvious(ly)"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "究竟",
+      "pinyin": "jiùjìng",
+      "explanation_gr": "τελικά (μετα από όλα αυτά που ειπώθηκαν),το αποτέλεσμα ,aκριβώς,after all (when all is said and done); Actually,outcome, Result;"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "然后",
+      "explanation_gr": "έπειτα,μετά ;"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "竟然",
+      "pinyin": "jìngrán",
+      "explanation_gr": "απροσδόκητα"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "居然",
+      "pinyin": "jūrán",
+      "explanation_gr": "απροσδόκητα"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "既然...",
+      "pinyin": "jìrán",
+      "explanation_gr": "Δεδομένου ότι..,από τη στιγμή που"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "自然",
+      "pinyin": "zìrán",
+      "explanation_gr": "φυσικός,natural,physical"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "偶然",
+      "pinyin": "ǒurán",
+      "explanation_gr": "τυχαία"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "忽然",
+      "pinyin": "hūrán",
+      "explanation_gr": "ξαφνικά"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "突然",
+      "explanation_gr": "ξαφνικά",
+      "explanation_en": "[Túrán]"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "仍然",
+      "pinyin": "réngrán",
+      "explanation_gr": "ακόμη,,still, yet; <ΔΕΣ:还[hái]>;"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "无奈",
+      "pinyin": "wúnài",
+      "explanation_gr": "ανήμπορος, χωρίς άλλη επιλογή"
+    },
+    {
+      "source_sheet": "CONJUC",
+      "pattern": "就算",
+      "pinyin": "jiùsuàn",
+      "explanation_gr": "ακόμα κι αν.."
+    }
+  ],
+  "idioms": [
+    {
+      "source_sheet": "idiom",
+      "idiom": "拔苗助长",
+      "pinyin": "bá miáo zhùzhǎng",
+      "meaning_en": "to spoil things through excessive enthusiasm (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "不行",
+      "pinyin": "Bùxíng",
+      "meaning_gr": "be no good, right;won't do ,δεν κάνει"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "不错",
+      "pinyin": "Bùcuò",
+      "meaning_gr": "Καθόλου άσχημα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "不敢当",
+      "pinyin": "Bù gǎndāng",
+      "meaning_gr": "I don't deserve it! Δεν το αξίζω!"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "废寝忘食",
+      "meaning_en": "[ fèiqǐnwàngshí ]"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "干杯!",
+      "meaning_gr": "στην υγειά σας,to drink a toast; Cheers! (proposing a toast); Here's to you!; Bottoms up!; lit. dry cup",
+      "meaning_en": "Gānbēi!"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "种瓜得瓜，种豆得豆",
+      "meaning_en": "Zhòng guā dé guā, Zhòng dòu dé dòu"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "恭喜",
+      "pinyin": "Gōngxǐ",
+      "meaning_gr": "Συγχαρητήρια恭喜买了新房子Συγχαρητήρια για την αγορά ενός νέου σπιτιού άλλά και για το ΝΈΟ ΧΡΟΝΟ λέμε 恭喜恭喜"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "好久不见",
+      "pinyin": "Hǎojiǔ bùjiàn",
+      "meaning_gr": "καιρό έχουμε να σε δούμε,Χρόνια και ζαμάνια"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "火上加油",
+      "pinyin": "Huǒshàngjiāyóu",
+      "meaning_gr": "ρίχνω λάδι στη φωτιά (ιδίωμα)?. σύκο να επιδεινώσει μια κατάσταση? να εξοργίζει τους ανθρώπους και να κάνουν τα πράγματα χειρότερα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "精益求精",
+      "pinyin": "jīng yì qiú jīng",
+      "meaning_en": "to perfect something that is already outstanding (idiom); constantly improving"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "忙中有错",
+      "pinyin": "mángzhōngyǒucuò",
+      "meaning_en": "Rushed work lead to errors (idiom). Mistakes are likely at times of stress."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "没关系",
+      "pinyin": "méiguānxì",
+      "meaning_gr": "δεν πειράζει"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一字千金",
+      "pinyin": "yīzìqiānjīn",
+      "meaning_en": "one word worth a thousand in gold (idiom); valuable advice, words of enormous weight"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一日千里",
+      "pinyin": "Yīrìqiānlǐ",
+      "meaning_en": "lit. one day, a thousand miles (idiom); rapid progress"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "万水千山",
+      "pinyin": "wànshuǐqiānshān",
+      "meaning_en": "ten thousand10.000 crags and torrents (idiom); the trials and tribulations of a long journey, a long and difficult road"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "众志成城",
+      "pinyin": "Zhòngzhìchéngchéng",
+      "meaning_gr": "(idiom)ενότητα της θέλησης( η θέληση των πολλών) είναι ένα απόρθητο φρούριο"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一错再错",
+      "pinyin": "yīcuòzàicuò",
+      "meaning_en": "to repeat errors, to continue blundering, to make continuous mistakes"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "现在过去钥匙 or过去是现在钥匙",
+      "pinyin": "today is the key to the past"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一走了之",
+      "pinyin": "yīzǒuliǎozhī",
+      "meaning_en": "to avoid a problem by walking away from it, to quit"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一箭双雕",
+      "pinyin": "yījiànshuāngdiāo",
+      "meaning_en": "lit. one arrow, two golden eagles (idiom), to kill two birds with one stone"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "糟糕",
+      "pinyin": "zāogāo",
+      "meaning_en": "too bad; how terrible; what bad luck; terrible; Bad"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "祝贺你",
+      "pinyin": "Zhùhè nǐ",
+      "meaning_gr": "Συγχαρητήρια σε εσάς",
+      "meaning_en": "selida123"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "圣诞快乐",
+      "pinyin": "Shèngdàn kuàilè",
+      "meaning_gr": "Καλά Χριστούγεννα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "万事如意",
+      "pinyin": "Wànshì rúyì",
+      "meaning_gr": "καλή τύχη"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一字不提",
+      "pinyin": "Yī zì bù tí",
+      "meaning_en": "to not mention a single word (about sth) (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "不是东西",
+      "pinyin": "bùshìdōngxi",
+      "meaning_en": "» (derog.) to be a good-for-nothing; worthless nobody; no-good"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "万水千山",
+      "pinyin": "wànshuǐqiānshān",
+      "meaning_gr": "έναs μακρύ και δύσκολο δρόμο"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "不怎么样",
+      "pinyin": "Bù zě me yàng",
+      "meaning_gr": "όχι τόσο καλά"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "离开人世",
+      "pinyin": "Líkāi rénshì",
+      "meaning_gr": "πεθαίνω"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "雪上加霜",
+      "pinyin": "Xuěshàngjiāshuāng",
+      "meaning_gr": "να προστεθεί χαλάζι στο χιόνι (ιδίωμα); μία καταστροφή πάνω από την άλλη? να κάνει τα πράγματα χειρότερα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "雨过天晴",
+      "pinyin": "yǔguòtiānqíng",
+      "meaning_en": "sky clears after rain; new hopes after a disastrous period (idiom); every cloud has a silver lining (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "有朋自远方来，不亦乐乎",
+      "meaning_gr": "να έχεις φίλουσ από μακριά ,δεν είναι φοβερ'ο?",
+      "meaning_en": "Yǒupéng zì yuǎnfāng lái, bù yì lè hū?"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "这句语",
+      "pinyin": "Zhè jù yǔ",
+      "meaning_gr": "αυτή η φράση"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "在危险的时候，就能知道谁是你的真朋友。",
+      "meaning_gr": "Σε επικίνδυνα στιγμή, να είναι σε θέση να γνωρίζουν ποιος αληθινοί φίλοι σας.In dangerous times, be able to know who your true friends.",
+      "meaning_en": "Zài wéixiǎn de shíhou, jiù néng zhīdào shuí shì nǐ de zhēn péngyǒu."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "可不",
+      "pinyin": "kěbù",
+      "meaning_gr": "ακριβώς ,exactly"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一语不发",
+      "pinyin": "Yī yǔ bù fā",
+      "meaning_en": "to not say a word"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一语双关",
+      "pinyin": "Yī yǔ shuāngguān",
+      "meaning_gr": "λογοπαίγνιο,Pun"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "倒霉蛋",
+      "pinyin": "Dǎoméi dàn",
+      "meaning_gr": "άμοιρος δύσμοιρos"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "别当真",
+      "pinyin": "bié dàngzhēn",
+      "meaning_gr": "μην το πάρετε στα σοβαρά"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "忙中有错",
+      "pinyin": "mángzhōngyǒucuò",
+      "meaning_gr": "όταν βιάζεσαι κάνεις λάθη."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "我的妈呀",
+      "pinyin": "Wǒ de mā ya",
+      "meaning_gr": "Θεούλη μου"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "三人成虎",
+      "pinyin": "Sān rén chéng hǔ",
+      "meaning_gr": "τρεις άνδρες μιλάμε κάνει μια τίγρη? επαναλαμβανόμενη φήμη γίνεται πραγματικότητα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "二进宫",
+      "pinyin": "èrjìngōng",
+      "meaning_en": "name of a famous opera; (slang) to go to jail for a second offense"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "唐人街",
+      "pinyin": "tángrénjiē",
+      "meaning_en": "Chinatown"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "唐老鸭",
+      "pinyin": "Táng lǎo yā",
+      "meaning_en": "Donald Duck"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "学乖",
+      "pinyin": "xuéguāi",
+      "meaning_gr": "να μάθουν από την εμπειρία (καθομιλουμένη)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "丢三落四",
+      "pinyin": "Diūsānlàsì",
+      "meaning_gr": "ξεχασιάρης"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "飲水思源",
+      "pinyin": "yǐnshuǐ sī yuán",
+      "meaning_gr": "ΕΥΓΝΩΜΟΝΕΣ lit. when you drink water, think of its source (idiom); gratitude for blessings and their well-spring; Don't forget where your happiness come from.; Be grateful for all your blessings!"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一清如水",
+      "pinyin": "yīqīngrúshuǐ",
+      "meaning_en": "lit. as clear as water; fig. (of officials etc) honest and incorruptible"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "照猫画虎",
+      "pinyin": "Zhàomāohuàhǔ",
+      "meaning_en": "lit. drawing a tiger using a cat as a model; fig. to pretend to do something without understanding it"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "娘希匹",
+      "pinyin": "niáng xī pǐ",
+      "meaning_en": "(dialect) fuck!"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "严于律己",
+      "pinyin": "Yán yú lǜjǐ",
+      "meaning_gr": "αυτο-πειθαρχία"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "九牛一毛",
+      "pinyin": "Jiǔniúyīmáo",
+      "meaning_gr": "σταγόνα στον ωκεανό"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "做牛做马",
+      "pinyin": "Zuò niú zuò mǎ",
+      "meaning_en": "it. to work like an ox, to work like a horse; fig. to work extremely hard"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "生米熟饭",
+      "pinyin": "Shēng mǐ shú fàn",
+      "meaning_en": "It's too late to change anything now."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "不用找了",
+      "pinyin": "Bùyòng zhǎole",
+      "meaning_gr": "κράτα τα ρέστα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "能歌善舞",
+      "pinyin": "Néng gē shàn wǔ",
+      "meaning_gr": "τραγουδά και να χορεύει"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一身两役",
+      "pinyin": "Yīshēn liǎng yì",
+      "meaning_gr": "ένα πρόσωπο που λαμβάνει σε δύο εργασίες ταυτόχρονα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "久病成医",
+      "pinyin": "Jiǔ bìng chéng yī",
+      "meaning_gr": "(παροιμία) μια μακροχρόνια ασθένεια κάνει τον ασθενή γιατρό"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "”病从心上起“",
+      "meaning_gr": "Aπό τη καρδιά ξεκινάει η αρρώστια",
+      "meaning_en": "” Bìng cóng xīn shàng qǐ “"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "以牙还牙",
+      "pinyin": "Yǐyáháiyá",
+      "meaning_gr": "Οφθαλμό αντί οφθαλμού και οδόντα αντί οδόντος"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "各位听众",
+      "pinyin": "Gèwèi tīngzhòng",
+      "meaning_gr": "Αγαπητοί ακροατές (ράδιο)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "乱七八糟",
+      "pinyin": "Luànqībāzāo",
+      "meaning_gr": "τα πάντα ανάκατα"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "表里不一",
+      "pinyin": "Biǎo lǐ bù yī",
+      "meaning_gr": "διπροσωπία εξωτερική εμφάνιση και εσωτερική πραγματικότητα διαφέρουν? όχι ό, τι φαίνεται, λέγοντας ένα πράγμα, αλλά σημαίνει κάτι διαφορετικό"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一路平安",
+      "meaning_gr": "Καλό ταξίδι",
+      "meaning_en": "Yīlù píng'ān"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "入乡随俗",
+      "pinyin": "Rùxiāngsuísú",
+      "meaning_gr": "Literally: When entering a village, follow the customs./όταν μπεισ σε ένα χωριο ακολούθησε τα έθιμα",
+      "meaning_en": "L27"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "请慢用",
+      "pinyin": "Qǐng màn yòng",
+      "meaning_gr": "παρακαλώ απολαύστε"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "比如说",
+      "pinyin": "Bǐrú shuō",
+      "meaning_gr": "για παράδειγμα。。。。"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "对我来说",
+      "pinyin": "Duì wǒ lái shuō",
+      "meaning_gr": "Για μένα…"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "我看",
+      "pinyin": "Wǒ kàn",
+      "meaning_gr": "η γνώμη μου είναι.. /νομίζω…"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "你说是不是？",
+      "meaning_gr": "Τι θεωρείς νομίζεις?",
+      "meaning_en": "Nǐ shuō shì bùshì?"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "礼轻情意重",
+      "pinyin": "Lǐ qīng qíngyì zhòng",
+      "meaning_gr": "Μικρό δώρο συναισθηματικό βάρους"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "文房四宝",
+      "pinyin": "Wénfángsìbǎo",
+      "meaning_gr": "Τέσσερις Θησαυροί της Μελέτης"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "小意思",
+      "pinyin": "Xiǎoyìsi",
+      "meaning_gr": "μικρό δείγμα; Απλό πραμα(που χρησιμοποιείται για δώρα )",
+      "meaning_en": "22"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "弟子不必不如师",
+      "pinyin": "Dìzǐ bùbì bùrú shī",
+      "meaning_gr": "οι μαθητές δεν είναι αναγκαστικά κατώτεροι από τους δασκάλους."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "师不必贤于弟子",
+      "meaning_gr": "Οι δάσκαλοι δεν είναι απαραίτητα πιο ικανοί από τους μαθητές",
+      "meaning_en": "Shī bùbì xián yú dìzǐ."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "知识是力量,学习改变命运",
+      "meaning_gr": "Η γνώση είναι δύναμη, να μάθουν να αλλάξει την μοίρα",
+      "meaning_en": "Zhīshì shì lìliàng, Xuéxí gǎibiàn mìngyùn"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "名不虚传",
+      "pinyin": "míngbùxūchuán",
+      "meaning_gr": "αξίζει τη φήμη"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "比上不足，比下有余。",
+      "meaning_gr": "Καλύτερος από κάποιους, χειρότερος από τους άλλους.",
+      "meaning_en": "Bǐ shàng bùzú, bǐ xià yǒuyú."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "不到长城非好汉",
+      "pinyin": "Bù dào chángchéng fēi hǎohàn",
+      "meaning_gr": "Αυτός που δεν ήταν ποτέ στο Σινικό Τείχος δεν είναι ένας αληθινός άνθρωπος"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "宗教是人民的鸦片。",
+      "meaning_gr": "Η θρησκεία είναι το όπιο του λαού.",
+      "meaning_en": "Zōngjiào shì rénmín de yāpiàn."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "活到老，学到老",
+      "meaning_en": "Huó dào lǎo, xué dào lǎo"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "失败是成功之母",
+      "pinyin": "Shībài shì chénggōng zhī mǔ",
+      "meaning_gr": "Η αποτυχία είναι η μητέρα της επιτυχίας"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "才高八斗",
+      "pinyin": "cái gāo bā dǒu",
+      "meaning_gr": "μεγάλο ταλέντο"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "以上(之前)你说的话",
+      "pinyin": "Yǐshàng zhīqián nǐ shuō dehuà",
+      "meaning_gr": "πάνω σε αυτα που είπες πριν"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "旅游/ 驴友",
+      "meaning_gr": "γάιδαροςφίλος, συνοδοιπόροι στο χάικιν",
+      "meaning_en": "lǚyóu/ lǘyǒu"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "强烈推荐",
+      "pinyin": "Qiángliè tuījiàn",
+      "meaning_gr": "Συνιστάται ιδιαίτερα/ανεπιφύλακτα,highly/strongly recommend"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "他上几年级？",
+      "meaning_gr": "Σε ποιά τάξη είναι ?",
+      "meaning_en": "Tā shàng jǐ niánjí?"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "礼尚往来",
+      "pinyin": "Lǐshàngwǎnglái",
+      "meaning_gr": "Αμοιβαιότητα/ lit. proper behavior is based on reciprocity (idiom); fig. to return politeness for politeness"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "英雄所见略同",
+      "meaning_en": "Yīngxióng suǒ jiàn lüè tóng"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "嫁鸡随鸡",
+      "pinyin": "Jià jī suí jī",
+      "meaning_en": "t means that whoever your husband is, whether he is good or bad, a girl has no alternative but to live with the man obediently for the rest of her life. There is a connotation of helplessness on the part of the married woman. Life has changed a great deal since then. When people use this idiom today, they do it half jokingly."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "高抬贵手",
+      "pinyin": "gāotái guì shǒu",
+      "meaning_en": "to be generous (idiom); to be magnanimous; Give me a break!"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "家喻户晓",
+      "pinyin": "jiā yù hù xiǎo",
+      "meaning_en": "understood by everyone (idiom); well known; a household name"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "循序渐进",
+      "pinyin": "Xúnxùjiànjìn",
+      "meaning_gr": "Βήμα προς βήμα για μάθηση,in sequence, step by step (idiom); to make steady progress incrementally; 读书应该循序渐进Dúshū yīnggāi xúnxùjiànjìn.Η ανάγνωση πρέπει να είναι βαθμιαία."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "得天独厚",
+      "pinyin": "dé tiān dú hòu",
+      "meaning_en": "blessed by heaven (idiom); enjoying exceptional advantages; favored by nature"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "恍然大悟",
+      "pinyin": "huǎngrán dàwù",
+      "meaning_en": "to suddenly realize; to suddenly see the light"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "一路顺风",
+      "pinyin": "yīlù shùnfēng",
+      "meaning_en": "to have a pleasant journey (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "无忧无虑",
+      "pinyin": "wú yōu wú lǜ",
+      "meaning_en": "carefree and without worries (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "众所周知",
+      "pinyin": "zhòng suǒzhōuzhī",
+      "meaning_gr": "όπως όλοι ξέρουν ,as everyone knows (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "阿堵物",
+      "pinyin": "ēdǔ wù",
+      "meaning_en": "money"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "悬崖峭壁",
+      "pinyin": "xuányá qiàobì",
+      "meaning_gr": "sheer cliffs γκρεμός and απόκρημνος precipitous rock faces (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "根深蒂固",
+      "pinyin": "gēn shēn dì gù",
+      "meaning_en": "deep-rooted (problem etc)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "见多识广",
+      "pinyin": "jiànduō shí guǎng",
+      "meaning_en": "experienced and knowledgeable (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "无穷无尽",
+      "pinyin": "wúqióng wújìn",
+      "meaning_en": "endless; boundless; Infinite;穷、尽：完。没有尽头；没有限度"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "层出不穷",
+      "pinyin": "céngchū bùqióng",
+      "meaning_en": "more and more emerge; innumerable succession; breeding like flies (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "鸡飞狗跳",
+      "pinyin": "Jī fēi gǒu tiào",
+      "meaning_gr": "Το κοτόπουλο φοβήθηκε να πετάξει και ο σκύλος φοβήθηκε να πηδήσει. Περιγράψτε τον πανικό σε ένα χάος."
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "理直气壮",
+      "pinyin": "lǐ zhí qì zhuàng",
+      "meaning_en": "in the right and self-confident (idiom); bold and confident with justice on one's side; to have the courage of one's convictions; just and forceful"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "称心如意",
+      "pinyin": "chènxīn rúyì",
+      "meaning_en": "after one's heart (idiom); gratifying and satisfactory; everything one could wish"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "无微不至",
+      "pinyin": "wú wēi bù zhì",
+      "meaning_gr": "in every possible way (idiom); Meticulous ακριβής, σχολαστικός επίθ (πχ έλεγχος) εξονυχιστικός"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "无忧无虑",
+      "pinyin": "wú yōu wú lǜ",
+      "meaning_en": "carefree and without worries (idiom)"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "后顾之忧",
+      "pinyin": "hòu gù zhī yōu",
+      "meaning_en": "fears of trouble in the rear (idiom); family worries (obstructing freedom of action); worries about the future consequences; often in negative expressions, meaning \"no worries about anything\""
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "川流不息",
+      "pinyin": "Chuānliúbùxī",
+      "meaning_gr": "ρεύμα, ασταμάτητη ροή; Αέναη ροή; the stream flows without stopping (idiom); unending flow"
+    },
+    {
+      "source_sheet": "idiom",
+      "idiom": "循序渐进",
+      "pinyin": "xúnxù jiànjìn",
+      "meaning_en": "in sequence, step by step (idiom); to make steady progress incrementally"
+    },
+    {
+      "source_sheet": "成语",
+      "idiom": "恍然大悟",
+      "pinyin": "huǎngrán dàwù",
+      "meaning_en": "to suddenly realize; to suddenly see the light"
+    }
+  ],
+  "phrases": [
+    {
+      "category": "祝福",
+      "phrase_zh": "祝您早日康复。",
+      "pinyin": "Zhù nín zǎorì kāngfù.",
+      "meaning_gr": "Σας εύχομαι ταχεία ανάρρωση."
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "请输入关键字",
+      "pinyin": "Qǐng shūrù guānjiàn zì",
+      "meaning_gr": "Παρακαλώ εισάγετε μια λέξη-κλειδί"
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "万事如意",
+      "pinyin": "Wànshì rúyì",
+      "meaning_gr": "εύχομαι τα καλύτερα"
+    },
+    {
+      "phrase_zh": "千金",
+      "pinyin": "Qiānjīn",
+      "meaning_gr": "Κόρη"
+    },
+    {
+      "phrase_zh": "点菜",
+      "pinyin": "Diǎn cài",
+      "meaning_gr": "παραγγέλνω (σε εστιατοριο)"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "从今天起",
+      "pinyin": "Cóng jīntiān qǐ",
+      "meaning_gr": "Από σήμερα"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "考上大学 考不上大学",
+      "pinyin": "Kǎo shàng dàxué",
+      "meaning_gr": "να περάσει στοπανεπιστήμιο"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "考不上大学",
+      "pinyin": "Kǎo bù shàng dàxué",
+      "meaning_gr": "δεν πέράσει στο πανεπιστήμιο"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "好好读书",
+      "pinyin": "Hǎo hǎo dúshū",
+      "meaning_gr": "study hard"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "去念大学",
+      "pinyin": "Qù niàn dàxué",
+      "meaning_gr": "Go to college"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "比方说",
+      "pinyin": "Bǐfāng shuō",
+      "meaning_gr": "for example"
+    },
+    {
+      "phrase_zh": "像你这样的",
+      "pinyin": "Xiàng nǐ zhèyàng de",
+      "meaning_gr": "Όπως και εσείς"
+    },
+    {
+      "category": "κακ",
+      "phrase_zh": "你吃错药了，是不是？",
+      "pinyin": "Nǐ chī cuò yàole, shì bùshì?",
+      "meaning_gr": "παίρνεις ληγμένα?"
+    },
+    {
+      "phrase_zh": "怪不得",
+      "pinyin": "Guàibùdé",
+      "meaning_gr": "δεν είναι να απορείς"
+    },
+    {
+      "phrase_zh": "啥事儿？",
+      "pinyin": "Shà shì er?",
+      "meaning_gr": "Τι συμβαίνει;"
+    },
+    {
+      "phrase_zh": "前不久",
+      "pinyin": "Qián bùjiǔ",
+      "meaning_gr": "Όχι πολύ καιρό πριν"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "你眼红了",
+      "pinyin": "Nǐ yǎnhóngle",
+      "meaning_gr": "Είστε ζηλιάρης"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "接着玩",
+      "pinyin": "Jiēzhe wán",
+      "meaning_gr": "συνέχεια στο παιχνίδι"
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "按键",
+      "pinyin": "Ànjiàn",
+      "meaning_gr": "Πατήστε το πλήκτρο"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "举个例子",
+      "pinyin": "Jǔ gè lìzi",
+      "meaning_gr": "Για παράδειγμα"
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "开始下载时，请点击“保存”按钮。",
+      "pinyin": "Kāishǐ xiàzài shí, qǐng diǎnjī “bǎocún” ànniǔ.",
+      "meaning_gr": "Όταν ξεκινάτε τη λήψη, κάντε κλικ στο κουμπί \"Αποθήκευση\"."
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "由于您未安装flash播放器视频无法播放，点击这里安装",
+      "pinyin": "Yóuyú nín wèi ānzhuāng flash bòfàng qì shìpín wúfǎ bòfàng, diǎnjī zhèlǐ ānzhuāng",
+      "meaning_gr": "Because you did not install flash player can not play the video, click here to install"
+    },
+    {
+      "phrase_zh": "发票中奖了",
+      "pinyin": "Fāpiào zhòngjiǎngle",
+      "meaning_gr": "τιμολόγιο κερδίζει"
+    },
+    {
+      "category": "καθημερινά ΙΔ",
+      "phrase_zh": "啥意思=什么意思",
+      "pinyin": "Shà yìsi",
+      "meaning_gr": "Τι σημαίνει αυτό;"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "我没想到",
+      "pinyin": "Wǒ méi xiǎngdào",
+      "meaning_gr": "Δεν το περίμενα"
+    },
+    {
+      "category": "ΠΑΡΟΙΜΙΕΣ",
+      "phrase_zh": "谁笑到最后谁笑的最好",
+      "pinyin": "Shéi xiào dào zuìhòu shéi xiào de zuì hǎo",
+      "meaning_gr": "Αυτός που γελάει τελευταίος γελάει καλύτερα"
+    },
+    {
+      "category": "**",
+      "phrase_zh": "歪果仁",
+      "pinyin": "Wāi guǒ rén",
+      "meaning_gr": "外国人Wàiguó rén (neologism, humorous) foreignerΑλλοδαπός"
+    },
+    {
+      "category": "ΚΗΠΟΣ",
+      "phrase_zh": "开花结果",
+      "pinyin": "Kāihuā jiē guǒ",
+      "meaning_gr": "bloom and bear fruit"
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "登入",
+      "pinyin": "Dēngrù",
+      "meaning_gr": "to log in (to a computer); to enter (data)"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "要看语境",
+      "pinyin": "Yào kàn yǔ jìng",
+      "meaning_gr": "Εξαρτάται από το πλαίσιο/Depends on context"
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "希望你能喜欢。",
+      "pinyin": "xīwàng nǐ néng xǐhuān.",
+      "meaning_gr": "Ελπίζω να σας αρέσει."
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "历史悠久",
+      "pinyin": "lìshǐ yōujiǔ",
+      "meaning_gr": "Έχει μακρά ιστορία"
+    },
+    {
+      "category": "ΜΑΘΗΜΑ",
+      "phrase_zh": "用专业代替拿手要更恰当",
+      "pinyin": "yòng zhuānyè dàitì náshǒu yào gèng qiàdàng",
+      "meaning_gr": "Use professional instead of expert to be more appropriate"
+    },
+    {
+      "category": "拍摄",
+      "phrase_zh": "（拍的）是日常简洁的口语，拍摄比较严谨一些",
+      "pinyin": "(Pāi de) shì rìcháng jiǎnjié de kǒuyǔ, pāishè bǐjiào yánjǐn yīxiē"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "堆雪人",
+      "pinyin": "Duī xuěrén",
+      "meaning_gr": "Make a snowman"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "到目前为止还好。",
+      "pinyin": "Dào mùqián wéizhǐ hái hǎo.",
+      "meaning_gr": "Μέχρι στιγμής καλά/So far so good."
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "希望你度过一个快乐的一天",
+      "pinyin": "Xīwàng nǐ dùguò yīgè kuàilè de yītiān",
+      "meaning_gr": "Ελπίζω να έχετε μια ευτυχισμένη μέρα"
+    },
+    {
+      "phrase_zh": "他使我想起了。。。",
+      "pinyin": "Tā shǐ wǒ xiǎngqǐle...",
+      "meaning_gr": "Μου θυμίζει. . . Mε κάνει να θυμάμαι"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "发表文章",
+      "pinyin": "Fābiǎo wénzhāng",
+      "meaning_gr": "Δημοσίευσε ένα άρθρο"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "送你一程/送你到那里",
+      "pinyin": "Sòng nǐ yī chéng/Sòng nǐ dào nàlǐ",
+      "meaning_gr": "Give you a ride/"
+    },
+    {
+      "category": "καθημερινά ΙΔ",
+      "phrase_zh": "在干嘛",
+      "pinyin": "zài gàn ma",
+      "meaning_gr": "Τι κάνεις;"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "其他什么都没有/一个都没有,一点都没有",
+      "pinyin": "Qítā shénme dōu méiyǒu/Yīdiǎn dōu méiyǒu",
+      "meaning_gr": "Τίποτα άλλο/Καθόλου"
+    },
+    {
+      "phrase_zh": "之类",
+      "pinyin": "Zhī lèi",
+      "meaning_gr": "Και ούτω καθεξής"
+    },
+    {
+      "category": "εξετάσεις",
+      "phrase_zh": "我通过过考试证书",
+      "pinyin": "Wǒ tōngguòguò kǎoshì zhèngshū",
+      "meaning_gr": "Πέρασα τις εξετάσεις πιστοποίησης"
+    },
+    {
+      "category": "#",
+      "phrase_zh": "已不在是",
+      "pinyin": "Yǐ bùzài shì",
+      "meaning_gr": "Δεν είναι πλέον"
+    },
+    {
+      "phrase_zh": "询根问底",
+      "pinyin": "Xún gēn wèn dǐ",
+      "meaning_gr": "έρευνα σε βάθος"
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "上传文档",
+      "pinyin": "shàngchuán wéndàng.",
+      "meaning_gr": "upload documents."
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "希望你早日康复",
+      "pinyin": "Xīwàng nǐ zǎorì kāngfù",
+      "meaning_gr": "I hope you get well soon"
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "学富五车",
+      "pinyin": "Xuéfùwǔchē",
+      "meaning_gr": "be wealthy in knowledge"
+    },
+    {
+      "phrase_zh": "才高八斗",
+      "pinyin": "Cái gāo bā dǒu",
+      "meaning_gr": "Talent"
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "祝圣诞快乐，新的一年大家越来越好，学业顺利，健康平安，生活美满!同乐",
+      "pinyin": "zhù shèngdàn kuàilè, xīn de yī nián dàjiā yuè lái yuè hǎo, xuéyè shùnlì, jiànkāng píng'ān, shēnghuó měimǎn!Tóng lè",
+      "meaning_gr": "Καλά Χριστούγεννα, όλοι γίνονται όλο και καλύτερα νέο έτος, ακαδημαϊκή επιτυχία, υγεία και ασφάλεια, ευτυχισμένη ζωή!επίσης"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "大多数人",
+      "pinyin": "Dà duōshù rén",
+      "meaning_gr": "Οι περισσότεροι άνθρωποι"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "打扫卫生",
+      "pinyin": "Dǎsǎo wèishēng",
+      "meaning_gr": "Καθαρισμός,κάνω καθαριότητα"
+    },
+    {
+      "phrase_zh": "有些时候",
+      "pinyin": "Yǒuxiē shíhòu",
+      "meaning_gr": "Μερικές φορές/Σε ορισμένες περιπτώσεις"
+    },
+    {
+      "phrase_zh": "万有引力",
+      "pinyin": "wànyǒuyǐnlì",
+      "meaning_gr": "Gravity"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "食言",
+      "pinyin": "shíyán",
+      "meaning_gr": "τα μασάω '"
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "表情符号",
+      "pinyin": "Biǎoqíng fúhào",
+      "meaning_gr": "Emoji/emoticons"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "即使这样",
+      "pinyin": "Jíshǐ zhèyàng",
+      "meaning_gr": "ακόμα και αν είναι έτσι ..."
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "一天之内",
+      "pinyin": "Yītiān zhī nèi",
+      "meaning_gr": "Μέσα σε μια μέρα"
+    },
+    {
+      "phrase_zh": "忍不住",
+      "pinyin": "Rěn bù zhù",
+      "meaning_gr": "Δεν μπορεί να βοηθήσει"
+    },
+    {
+      "category": "ΓΝ",
+      "phrase_zh": "眼睛是心灵的窗口",
+      "pinyin": "Yǎnjīng shì xīnlíng de chuāngkǒu",
+      "meaning_gr": "Τα μάτια είναι τα παράθυρα της ψυχής"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "今天过的怎样？",
+      "pinyin": "jīntiānguò de zěnyàng?",
+      "meaning_gr": "πώς πέρασες σήμερα?"
+    },
+    {
+      "category": "απόκριες",
+      "phrase_zh": "放风筝",
+      "pinyin": "Fàng fēngzhēng",
+      "meaning_gr": "Πετάξτε ένα χαρταετό"
+    },
+    {
+      "phrase_zh": "此时此刻",
+      "pinyin": "Cǐ shí cǐkè",
+      "meaning_gr": "at this very moment"
+    },
+    {
+      "category": "αθλητισμός",
+      "phrase_zh": "引体向上",
+      "pinyin": "Yǐn tǐ xiàngshàng",
+      "meaning_gr": "μονόζυγο"
+    },
+    {
+      "category": "γραμματική",
+      "phrase_zh": "专业术语",
+      "pinyin": "Zhuānyè shùyǔ",
+      "meaning_gr": "ορολογια"
+    },
+    {
+      "phrase_zh": "赏罚分明",
+      "pinyin": "Shǎngfá fēnmíng",
+      "meaning_gr": "Αμοιβή και τιμωρία σαφώς"
+    },
+    {
+      "phrase_zh": "乱七八糟",
+      "pinyin": "Luànqībāzāo",
+      "meaning_gr": "άνω κατω, everything in disorder (idiom); in a hideous mess; at sixes and sevens"
+    },
+    {
+      "phrase_zh": "文质彬彬",
+      "pinyin": "wénzhìbīnbīn",
+      "meaning_gr": "ευγενής"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "答不上来",
+      "pinyin": "dā bù shànglái",
+      "meaning_gr": "αν δεν απαντήσεις"
+    },
+    {
+      "phrase_zh": "直译",
+      "pinyin": "zhíyì",
+      "meaning_gr": "κυριολεκτική μετάφραση/ literal translation"
+    },
+    {
+      "phrase_zh": "无动于衷",
+      "pinyin": "Wúdòngyúzhōng"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "一大堆事要做",
+      "pinyin": "Yī dà duī shì yào zuò",
+      "meaning_gr": "πρέπει να κάνω ένα σωρό πράγματα"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "大堆",
+      "pinyin": "dà duī",
+      "meaning_gr": "ένα σωρό"
+    },
+    {
+      "category": "Ιατρικά",
+      "phrase_zh": "拆线",
+      "pinyin": "Chāi xiàn",
+      "meaning_gr": "αφαιρώ τα ράμματα (από ένα τραύμα)"
+    },
+    {
+      "phrase_zh": "中华人民共和国",
+      "pinyin": "Zhōnghuá rénmín gònghéguó",
+      "meaning_gr": "Λαϊκή Δημοκρατία της Κίνας"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "百货公司",
+      "pinyin": "Bǎihuò gōngsī",
+      "meaning_gr": "Πολυκαταστήματα"
+    },
+    {
+      "phrase_zh": "不到最后一刻，千万别放弃",
+      "pinyin": "Bù dào zuìhòu yīkè, qiān wàn bié fàngqì",
+      "meaning_gr": "Μέχρι την τελευταία στιγμή, μην εγκαταλείπετε την προσπάθεια"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "待会儿",
+      "pinyin": "Dài huì er",
+      "meaning_gr": "Λίγο αργότερα"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "待会儿聊",
+      "pinyin": "Dài huì er liáo",
+      "meaning_gr": "Μιλάμε αργότερα"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "难以置信/真不敢相信",
+      "pinyin": "Nányǐ zhìxìn/Zhēn bù gǎn xiāngxìn",
+      "meaning_gr": "unbelievable=Απίστευτο"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "你干嘛呢",
+      "pinyin": "Nǐ gàn ma ne",
+      "meaning_gr": "Τι κάνεις;"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "别介意,...",
+      "pinyin": "Bié jièyì,",
+      "meaning_gr": "Do not mind"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "改日",
+      "pinyin": "Gǎi rì",
+      "meaning_gr": "μια άλλη μέρα"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "闹去",
+      "pinyin": "nào qù",
+      "meaning_gr": "Στο κέντρο της πόλης"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "彩色",
+      "pinyin": "cǎisè",
+      "meaning_gr": "πολυχρωμα"
+    },
+    {
+      "category": "σπίτι",
+      "phrase_zh": "台灯",
+      "pinyin": "Táidēng",
+      "meaning_gr": "Επιτραπέζιο φωτιστικό"
+    },
+    {
+      "phrase_zh": "装得若无其事",
+      "pinyin": "Zhuāng dé ruòwúqíshì",
+      "meaning_gr": "παριστάνω ότι δεν έχει συμβεί τίποτα."
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "更有趣的是",
+      "pinyin": "Gèng yǒuqù de shì",
+      "meaning_gr": "Ακόμη πιο ενδιαφέρον είναι"
+    },
+    {
+      "phrase_zh": "苦肉计",
+      "pinyin": "Kǔròujì",
+      "meaning_gr": "the trick of injuring oneself to gain the enemy's confidence"
+    },
+    {
+      "category": "ΓΙΟΡΤΗ",
+      "phrase_zh": "元宵佳节",
+      "pinyin": "yuánxiāo jiājié",
+      "meaning_gr": "Lantern Festival"
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "长相/外貌",
+      "pinyin": "Zhǎngxiàng/Wàimào",
+      "meaning_gr": "Εμφάνιση, appearance, looks, profile, countenance"
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "点击播放发音",
+      "pinyin": "Diǎnjī bòfàng fāyīn",
+      "meaning_gr": "Κάντε κλικ για αναπαραγωγή προφοράς"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "不过日常生活里一般都可以互换的",
+      "pinyin": "Bùguò rìcháng shēnghuó lǐ yībān dōu kěyǐ hù huàn de",
+      "meaning_gr": "Αλλά στη καθημερινή ζωή είναι γενικά εναλλάξιμα"
+    },
+    {
+      "category": "ΓΕΩΓΡΑΦΙΑ",
+      "phrase_zh": "朝鲜",
+      "pinyin": "cháoxiǎn",
+      "meaning_gr": "Βόρεια Κορέα"
+    },
+    {
+      "category": "ΙΣΤΟΡΙΑ",
+      "phrase_zh": "唐朝",
+      "pinyin": "táng cháo",
+      "meaning_gr": "Δυναστεία Τανγκ(618年－907年)"
+    },
+    {
+      "category": "ταξίδι",
+      "phrase_zh": "改掉余下的行程",
+      "pinyin": "Gǎi diào yúxià de xíngchéng.",
+      "meaning_gr": "Αλλαγή του υπόλοιπου ταξιδιού."
+    },
+    {
+      "category": "coll.",
+      "phrase_zh": "宅人",
+      "pinyin": "zhái rén",
+      "meaning_gr": "(καθημερινό)αυτός που μένει στο σπίτι,παλιά κατοικία"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "改成夏令时了",
+      "pinyin": "Gǎi chéng xiàlìng shíliǎo ma?",
+      "meaning_gr": "Αλλαγή στη θερινή ώρα;"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "晚点再聊，",
+      "pinyin": "wǎndiǎn zài liáo,",
+      "meaning_gr": "Μιλάμε αργότερα,"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "你在干嘛呢",
+      "pinyin": "Nǐ zài gàn ma ne",
+      "meaning_gr": "Τι κάνεις;"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "手机与平板",
+      "pinyin": "shǒujī yǔ píngbǎn",
+      "meaning_gr": "Κινητό και Tablet"
+    },
+    {
+      "category": "ΤΕΧΝΙΚΑ",
+      "phrase_zh": "太阳能",
+      "pinyin": "Tàiyángnéng",
+      "meaning_gr": "Ηλιακή ενέργεια"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "它是在讲…..一个古镇",
+      "pinyin": "Tā shì zài jiǎng …..yīgè gǔzhèn",
+      "meaning_gr": "μιλάει για.., Αναφέρεται σε ..."
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "第二行",
+      "pinyin": "dì èr háng",
+      "meaning_gr": "Δεύτερη σειρά (από κείμενο)"
+    },
+    {
+      "category": "ΤΕΧΝΙΚΑκαθημερινά",
+      "phrase_zh": "太阳能充电",
+      "pinyin": "Tàiyángnéng chōngdiàn",
+      "meaning_gr": "Ηλιακή φόρτιση"
+    },
+    {
+      "category": "ΟΙΚΟΝΟΜΙΚΑκαθημερινά",
+      "phrase_zh": "货到付款",
+      "pinyin": "Huò dào fùkuǎn",
+      "meaning_gr": "πληρωμή με Αντικαταβολή"
+    },
+    {
+      "phrase_zh": "在为期三天",
+      "pinyin": "Zài wéiqí sān tiān",
+      "meaning_gr": "Κατά τη διάρκεια των τριών ημερών",
+      "meaning_en": "三天内"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "好成绩"
+    },
+    {
+      "phrase_zh": "对我而言",
+      "pinyin": "duì wǒ ér yán",
+      "meaning_gr": "για μένα"
+    },
+    {
+      "category": "ΜΟΥΣΙΚΗ",
+      "phrase_zh": "伴奏/节奏",
+      "pinyin": "bànzòu",
+      "meaning_gr": "to accompany (musically)"
+    },
+    {
+      "category": "Η/Υ",
+      "phrase_zh": "注册成为会员",
+      "pinyin": "Zhùcè chéngwéi huìyuán",
+      "meaning_gr": "Εγγραφή ως μέλος."
+    },
+    {
+      "phrase_zh": "系领带",
+      "pinyin": "jì lǐngdài",
+      "meaning_gr": "to tie one's necktie"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "谋事",
+      "pinyin": "Móushì",
+      "meaning_gr": "Look for a job"
+    },
+    {
+      "category": "idiom 6",
+      "phrase_zh": "与日俱增",
+      "pinyin": "Yǔrìjùzēng",
+      "meaning_gr": "Αυξάνεται καθημερινά"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "不是错的选择",
+      "pinyin": "Bùshì cuò de xuǎnzé",
+      "meaning_gr": "Δεν είναι η λάθος επιλογή"
+    },
+    {
+      "phrase_zh": "系上安全带",
+      "pinyin": "Xì shàng ānquán dài",
+      "meaning_gr": "Φορώντας ένα ζώνη ασφαλείας"
+    },
+    {
+      "category": "εκπαιδευση",
+      "phrase_zh": "放学",
+      "pinyin": "fàngxué",
+      "meaning_gr": "to dismiss students at the end of the school day"
+    },
+    {
+      "category": "εκπαιδευση",
+      "phrase_zh": "班级",
+      "pinyin": "Bānjí",
+      "meaning_gr": "τάξη σχολείου class (group of students); grade (in school)"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "中大奖了吗",
+      "pinyin": "zhòng dàjiǎng",
+      "meaning_gr": "κέρδισες το λαχείο ?"
+    },
+    {
+      "category": "Αγορες",
+      "phrase_zh": "一分价钱一分货",
+      "pinyin": "Yī fēn jiàqián yī fēn huò",
+      "meaning_gr": "You get what you pay for"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "光阴",
+      "pinyin": "guāngyīn",
+      "meaning_gr": "time available"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "被你带坏了",
+      "pinyin": "Bèi nǐ dài huàile",
+      "meaning_gr": "από εσένα παρασύρθηκα"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "浮想联翩",
+      "pinyin": "Fúxiǎng liánpiān",
+      "meaning_gr": "καλπάζουσα φαντασία"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "差点",
+      "pinyin": "Chàdiǎn",
+      "meaning_gr": "παρολίγο"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "差点儿忘了",
+      "pinyin": "Chàdiǎn er wàngle",
+      "meaning_gr": "παραλίγο να ξεχάσω"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "不知不觉",
+      "pinyin": "Bùzhī bù jué",
+      "meaning_gr": "άθελα"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "有关",
+      "pinyin": "yǒuguān",
+      "meaning_gr": "που έχου σχέση με .."
+    },
+    {
+      "category": "ΕΡΓΑΣΙΑκαθημερινά",
+      "phrase_zh": "“这个月没发工资啊？”发了，用完了！",
+      "meaning_gr": "Δεν πληρώθηκες αυτό το μήνα;\" πληρώθηκα,τελειώσανε!!"
+    },
+    {
+      "category": "ΦΑΓΗΤΟ",
+      "phrase_zh": "做的川菜最地道",
+      "pinyin": "Zuò de chuāncài zuì dìdào",
+      "meaning_gr": "The most authentic Sichuan cuisine"
+    },
+    {
+      "category": "ΠΟΛΙΤΙΣΜΟΣ",
+      "phrase_zh": "俗语",
+      "pinyin": "súyǔ",
+      "meaning_gr": "common saying; proverb; colloquial speech"
+    },
+    {
+      "category": "εκπαιδευση",
+      "phrase_zh": "我在上大学的时候",
+      "pinyin": "Wǒ zài shàng dàxué de shíhòu",
+      "meaning_gr": "Όταν ήμουν στο κολέγιο"
+    },
+    {
+      "category": "Ιατρικά",
+      "phrase_zh": "体格检查/体检",
+      "pinyin": "Tǐgé jiǎnchá/tǐjiǎn",
+      "meaning_gr": "γενικές εξετάσεις"
+    },
+    {
+      "category": "ΟΙΚΟΝΟΜΙΚΑκαθημερινά",
+      "phrase_zh": "柜员机",
+      "pinyin": "guì yuán jī",
+      "meaning_gr": "ATM"
+    },
+    {
+      "category": "εκπαιδευση",
+      "phrase_zh": "亦作",
+      "pinyin": "yìzuò",
+      "meaning_gr": "also written as"
+    },
+    {
+      "category": "εκπαιδευση",
+      "phrase_zh": "亦称",
+      "pinyin": "yìchēng",
+      "meaning_gr": "also known as; alternative name; to also be called"
+    },
+    {
+      "category": "κινητα/ΗΥ",
+      "phrase_zh": "充电/充上电",
+      "pinyin": "Chōngdiàn/chōng shàng diàn",
+      "meaning_gr": "Φόρτιση / φόρτιση"
+    },
+    {
+      "category": "κινητα/ΗΥ",
+      "phrase_zh": "充电器",
+      "pinyin": "Chōngdiàn qì",
+      "meaning_gr": "Φορτιστής"
+    },
+    {
+      "category": "κουζίνα",
+      "phrase_zh": "炸鸡腿儿",
+      "pinyin": "Zhá jītuǐ er",
+      "meaning_gr": "Τηγανητά πόδια κοτόπουλου"
+    },
+    {
+      "phrase_zh": "本地人",
+      "pinyin": "Běndì rén",
+      "meaning_gr": "Οι ντόπιοι"
+    },
+    {
+      "category": "ΕΡΓΑΣΙΑκαθημερινά",
+      "phrase_zh": "就业机会",
+      "pinyin": "jiùyè jīhuì",
+      "meaning_gr": "employment opportunity; job opening"
+    },
+    {
+      "category": "κινητα/ΗΥ",
+      "phrase_zh": "点击",
+      "pinyin": "Diǎnjī",
+      "meaning_gr": "Κάνω ΄΄κλικ'"
+    },
+    {
+      "category": "έκθεση",
+      "phrase_zh": "顾名思义",
+      "pinyin": "Gùmíngsīyì",
+      "meaning_gr": "Όπως υποδηλώνει το όνομα"
+    },
+    {
+      "category": "ΑΡΧΗ,Συνδεση",
+      "phrase_zh": "有道是",
+      "pinyin": "yǒudào shì",
+      "meaning_gr": "as they say, ...; as the saying goes, ..."
+    },
+    {
+      "category": "ΑΡΧΗ,Συνδεση",
+      "phrase_zh": "大多数人也许会认为",
+      "pinyin": "Dà duōshù rén yěxǔ huì rènwéi",
+      "meaning_gr": "Οι περισσότεροι άνθρωποι μπορεί να θεωρούν"
+    },
+    {
+      "category": "έκθεση",
+      "phrase_zh": "据统计",
+      "pinyin": "Jù tǒngjì",
+      "meaning_gr": "Σύμφωνα με στατιστικά στοιχεία"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "待人接物",
+      "pinyin": "Dàirénjiēwù,",
+      "meaning_gr": "συμπεριφορά προς τους άλλους"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "中央电视台",
+      "pinyin": "Zhōngyāng diànshìtái",
+      "meaning_gr": "China Central Television (CCTV), PRC state TV network"
+    },
+    {
+      "category": "παρουσιάζω",
+      "phrase_zh": "今天我们有幸/有荣幸跟刘谦面对面交流",
+      "pinyin": "Jīntiān wǒmen yǒuxìng/Róngxìng gēn liúqiān miànduìmiàn jiāoliú,",
+      "meaning_gr": "Today we are fortunate / have the honor to meet with Liu Qian face to face."
+    },
+    {
+      "category": "εκπαιδευση",
+      "phrase_zh": "考入",
+      "pinyin": "kǎorù",
+      "meaning_gr": "to pass entrance exam; to enter college after a competitive exam"
+    },
+    {
+      "category": "εκπαιδευση",
+      "phrase_zh": "普通高等学校招生全国统一考试 /高考",
+      "pinyin": "Pǔtōng gāoděng xuéxiào zhāoshēng quánguó tǒngyī kǎoshì",
+      "meaning_gr": "Εθνικό Εισαγωγικές Εξετάσεις για εισαγωγή Τριτοβάθμιας Εκπαίδευσης"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "溜达一圈",
+      "pinyin": "Liūda yī quān.",
+      "meaning_gr": "κάνω μια βόλτα γύρω"
+    },
+    {
+      "category": "καιρος",
+      "phrase_zh": "强降雨",
+      "pinyin": "Qiáng jiàngyǔ",
+      "meaning_gr": "έντονες βροχοπτώσεις"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "绕口令",
+      "pinyin": "ràokǒu lìng",
+      "meaning_gr": "tongue-twister"
+    },
+    {
+      "category": "ΟΙΚΟΝΟΜΙΚΑκαθημερινά",
+      "phrase_zh": "假货",
+      "pinyin": "jiǎhuò",
+      "meaning_gr": "μαιμού προιόντα"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "五官",
+      "pinyin": "wǔguān",
+      "meaning_gr": "five sense organs of TCM (nose, eyes, lips, tongue, ears 鼻目口舌耳); facial features"
+    },
+    {
+      "category": "αθλητισμός",
+      "phrase_zh": "俯卧撑",
+      "pinyin": "Fǔwòchēng",
+      "meaning_gr": "push ups"
+    },
+    {
+      "category": "ΠΟΛΙΤΙΣΜΟΣ",
+      "phrase_zh": "发祥地",
+      "pinyin": "fāxiáng dì",
+      "meaning_gr": "the birthplace (of something good); the cradle (e.g. of art)"
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "带上您的微笑、幸福",
+      "pinyin": "dài shàng nín de wéixiào, xìngfú"
+    },
+    {
+      "category": "祝福",
+      "phrase_zh": "祝你们全家健康平平安安",
+      "pinyin": "Zhù nǐmen quánjiā jiànkāng píngpíng ān'ān"
+    },
+    {
+      "category": "κινητα/ΗΥ",
+      "phrase_zh": "我先退出 软件再进入但没有效果 今天这里能看见图片非常非常慢，觉得就是这里这个软件的问题 头像也不能看见。",
+      "pinyin": "Wǒ xiān tuìchū ruǎnjiàn zài jìnrù dàn méiyǒu xiàoguǒ jīntiān zhèlǐ néng kànjiàn túpiàn fēicháng fēicháng màn, juédé jiùshì zhèlǐ zhège ruǎnjiàn de wèntí tóuxiàng yě bùnéng kànjiàn."
+    },
+    {
+      "category": "祝福 旅游",
+      "phrase_zh": "一路顺风",
+      "pinyin": "yīlù shùnfēng",
+      "meaning_gr": "to have a pleasant journey (idiom)"
+    },
+    {
+      "category": "καθημερινά ΑΥΤΟΚ",
+      "phrase_zh": "昨晚我们的车抛锚了。",
+      "pinyin": "Zuó wǎn wǒmen de chē pāomáole.",
+      "meaning_gr": "Our car broke down last night."
+    },
+    {
+      "category": "καθημερινά ΕΚΦΡΑΣΗ",
+      "phrase_zh": "据我所知",
+      "pinyin": "Jù wǒ suǒ zhī",
+      "meaning_gr": "Από όσο γνωρίζω"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "书架上翻一下",
+      "pinyin": "Hǎo, shūjià shàng fān yīxià",
+      "meaning_gr": "Ok, flip it over the bookshelf."
+    },
+    {
+      "category": "ΓΙΟΡΤΕΣ",
+      "phrase_zh": "斗蛋",
+      "pinyin": "dòu dàn",
+      "meaning_gr": "τσουγκρισμα αυγών",
+      "meaning_en": "斗蛋。它深得人民尤其是小孩子的喜爱。每到三月初二晚上，母亲们都要为每个孩子准备好鸡蛋，一人一个网兜是少不了的。 江苏南通的斗蛋习俗发生在立夏,每年的立夏这一天妈妈都会为孩子准备好鸡蛋鸭蛋鹅蛋各一枚,与别的小伙伴斗蛋"
+    },
+    {
+      "category": "καθημερινά",
+      "phrase_zh": "取名",
+      "pinyin": "qǔmíng",
+      "meaning_gr": "δίνω όνομα,to name; to be named; to christen; to seek fame"
+    },
+    {
+      "category": "ΕΥΧΕΣ",
+      "phrase_zh": "称心如意",
+      "pinyin": "chènxīn rúyì",
+      "meaning_gr": "after one's heart (idiom); gratifying and satisfactory; everything one could wish"
+    },
+    {
+      "category": "Ιατρικά",
+      "phrase_zh": "量体温",
+      "pinyin": "liáng tǐwēn",
+      "meaning_gr": "to take somebody's temperature"
+    },
+    {
+      "category": "Ιατρικά",
+      "phrase_zh": "切脉",
+      "pinyin": "qièmài",
+      "meaning_gr": "to feel somebody's pulse"
+    },
+    {
+      "category": "Ιατρικά",
+      "phrase_zh": "伟哥",
+      "pinyin": "wěigē",
+      "meaning_gr": "Viagra (male impotence drug)"
+    },
+    {
+      "phrase_zh": "怎么回事",
+      "pinyin": "zěnme huíshì",
+      "meaning_gr": "πώς προέκυψε, what's the matter?; what's going on?; how could that be?; how did that come about?; what's it all about?"
+    },
+    {
+      "phrase_zh": "菜鸟",
+      "pinyin": "càiniǎo",
+      "meaning_gr": "coll.) somebody new to a particular subject; rookie; beginner; newbie"
+    },
+    {
+      "phrase_zh": "免提",
+      "pinyin": "miǎntí",
+      "meaning_gr": "hands-free (of telephone etc)"
+    },
+    {
+      "phrase_zh": "你神经病吧你",
+      "pinyin": "nǐ shénjīngbìng ba nǐ",
+      "meaning_gr": "You are mad/ crazy?ανισόρροπος"
+    }
+  ],
+  "similar_forms": [
+    {
+      "char": "天",
+      "pinyin": "Tiān",
+      "meaning": "Ημέρα,ουρανός"
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "meaning": "no, none, not, to lack, negative, -less, not to have, R71"
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū, fú",
+      "meaning": "man, male adult, husband"
+    },
+    {
+      "char": "失",
+      "pinyin": "shī",
+      "meaning": "χάνω, to lose,"
+    },
+    {
+      "char": "矢",
+      "pinyin": "shǐ",
+      "meaning": "βέλος"
+    },
+    {
+      "char": "木",
+      "pinyin": "Mù",
+      "meaning": "Ξύλο"
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "meaning": "όχι ακόμη,δεν"
+    },
+    {
+      "char": "末",
+      "pinyin": "mò",
+      "meaning": "τέλος, τελευταίος"
+    },
+    {
+      "char": "朱",
+      "pinyin": "zhū",
+      "meaning": "κινναβαρίτης,cinnabar, vermilion, surname Zhu"
+    },
+    {
+      "char": "采",
+      "pinyin": "Cǎi",
+      "meaning": "συλλέγω/μαζεύω με τα χέρια"
+    },
+    {
+      "char": "釆",
+      "pinyin": "Biàn",
+      "meaning": "διακρίνω /to distinguish, KangXi radical 165"
+    },
+    {
+      "char": "来",
+      "pinyin": "lái",
+      "meaning": "έρχομαι"
+    },
+    {
+      "char": "受",
+      "pinyin": "Shòu",
+      "meaning": "suffer"
+    },
+    {
+      "char": "干",
+      "meaning": "[gān, gàn]"
+    },
+    {
+      "char": "千",
+      "pinyin": "qiān",
+      "meaning": "1000"
+    },
+    {
+      "char": "午",
+      "pinyin": "wǔ",
+      "meaning": "μεσημέρι"
+    },
+    {
+      "char": "牛",
+      "pinyin": "Niú",
+      "meaning": "αγελάδα"
+    },
+    {
+      "char": "年",
+      "pinyin": "Nián",
+      "meaning": "έτος"
+    },
+    {
+      "char": "印",
+      "pinyin": "yìn",
+      "meaning": "Εκτύπωση"
+    },
+    {
+      "char": "卬",
+      "meaning": "[áng]"
+    },
+    {
+      "char": "束",
+      "pinyin": "shù",
+      "meaning": "δέσμη"
+    },
+    {
+      "char": "朿",
+      "pinyin": "cì",
+      "meaning": "Αγκάθια"
+    },
+    {
+      "char": "口",
+      "pinyin": "kǒu",
+      "meaning": "στόμα"
+    },
+    {
+      "char": "囗",
+      "pinyin": "wéi",
+      "meaning": "Περίβλημα,"
+    },
+    {
+      "char": "与",
+      "pinyin": "Yǔ",
+      "meaning": "Και"
+    },
+    {
+      "char": "马",
+      "pinyin": "Mǎ",
+      "meaning": "Άλογο"
+    },
+    {
+      "char": "土",
+      "pinyin": "Tǔ",
+      "meaning": "Έδαφος"
+    },
+    {
+      "char": "士",
+      "pinyin": "shì",
+      "meaning": "λόγιος"
+    },
+    {
+      "char": "幸",
+      "pinyin": "Xìng",
+      "meaning": "Ευτυχώς"
+    },
+    {
+      "char": "辛",
+      "pinyin": "xīn",
+      "meaning": "δύσκολα,σκληρά"
+    },
+    {
+      "char": "夂",
+      "pinyin": "zhī",
+      "meaning": "go, Kangxi radical number 34"
+    },
+    {
+      "char": "攵",
+      "pinyin": "pū",
+      "meaning": "rap, tap, Kangxi radical 66"
+    },
+    {
+      "char": "方",
+      "pinyin": "fāng",
+      "meaning": "τετράγωνο, *διεύθυνση, ***μεθοδος, ** ιατρική συνταγή"
+    },
+    {
+      "char": "万",
+      "pinyin": "wàn",
+      "meaning": "ten thousand 10.000"
+    },
+    {
+      "char": "齐",
+      "pinyin": "qí",
+      "meaning": "ομαλά, ομοιόμορφα even, uniform, of equal length"
+    },
+    {
+      "char": "乔",
+      "pinyin": "qiáo",
+      "meaning": "Joe"
+    },
+    {
+      "char": "师",
+      "pinyin": "shī",
+      "meaning": "teacher, master, expert, specialist, model, a division (military)"
+    },
+    {
+      "char": "帅",
+      "pinyin": "shuài",
+      "meaning": "handsome, graceful, smart, commander in chief"
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "meaning": "say"
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "meaning": "day,sun"
+    },
+    {
+      "char": "爰",
+      "pinyin": "yuán",
+      "meaning": "therefore, consequently, hence, thereupon, to lead on to, whence, from what place, to change (into)"
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "meaning": "Αγάπη"
+    },
+    {
+      "char": "问",
+      "pinyin": "wèn",
+      "meaning": "ρωτάω"
+    },
+    {
+      "char": "间",
+      "pinyin": "jiān",
+      "meaning": "χρόνος"
+    },
+    {
+      "char": "询",
+      "pinyin": "Xún",
+      "meaning": "Inquiry ask"
+    },
+    {
+      "char": "词",
+      "pinyin": "cí",
+      "meaning": "λέξη"
+    }
+  ],
+  "misc": [
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "脏词"
+    },
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "操你妈/肏你妈",
+      "pinyin": "Cāo nǐ mā",
+      "meaning": "motherfucker/fuck your mother (vulgar); 奇怪"
+    },
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "滚开",
+      "pinyin": "Gǔn kāi",
+      "meaning": "to boil (of liquid), boiling hot, Get out!, Go away!, fuck off (rude); 胡说八道; Húshuō bādào"
+    },
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "他妈的",
+      "pinyin": "tā mā de",
+      "meaning": "Fuck,Γαμώτο; 东西"
+    },
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "肏你妈！",
+      "pinyin": "gǒupì",
+      "meaning": "― Cào nǐ mā! ―; Fuck your mother!; 狗屁"
+    },
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "王八蛋",
+      "pinyin": "Wángbā dàn",
+      "meaning": "Bastard/son of a bitch; 下流; xiàliú"
+    },
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "淑女 君子",
+      "pinyin": "Shūnǚ jūnzǐ",
+      "meaning": "王八蛋; Wángbā dàn"
+    },
+    {
+      "category": "slang",
+      "source_sheet": "脏词",
+      "char": "吃错药了吗？",
+      "pinyin": "Cāo nǐ mā",
+      "meaning": "chī cuò yàole ma?; Did you take the wrong medicine?; 操你妈"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "中国东西",
+      "char": "发废话会花话费， 回发废话话费会花， 发废话花费话费会花费， 回发废话会费话费， 花费话费回发废话会耗费话费……"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "中国东西",
+      "char": "聚宝盆",
+      "pinyin": "jù bǎo pén",
+      "meaning": "treasure bowl (mythology); fig. source of wealth; cornucopia; gold mine"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "中国东西",
+      "char": "中国结，古钱币",
+      "pinyin": "Zhōngguójié, gǔ qiánbì",
+      "meaning": "Chinese knot, ancient coins"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "中国东西",
+      "char": "手机壳",
+      "pinyin": "Shǒujī ké",
+      "meaning": "Θήκη κινητού τηλεφώνου"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "中国东西",
+      "char": "人力车",
+      "meaning": "人力车，又称作黄包车，或者东洋车，是一种依靠人力的交通工具，一般有两个轮子，上有座位可坐一到二人，由一个人在前面拉行（也有的洋车后边有人推） 人力车主要在19世纪末到20世纪初，汽车尚未发达的时代，在亚洲各国的城市地区作为主要的交通工具。20世纪后半以后其交通工具的功能，逐渐被三轮车或机动三轮车所取代，现在主要是在观光景点使用"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "皇帝",
+      "pinyin": "huángdì"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "秦始皇",
+      "pinyin": "qínshǐhuáng",
+      "meaning": "秦朝/秦代; Qín cháo/qín dài; Δυναστεία Qin"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "Qin dynasty (221-207 BC), founded by the first emperor Qin Shihuang 秦始皇, the first dynasty to rule the whole of"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "甲骨文",
+      "pinyin": "Jiǎgǔwén",
+      "meaning": "επιγραφές οστών (πρώιμη μορφή κινεζικής γραφής); 大约产生于商周之际; yú shāng zhōu zhī jì; δυναστείες Shang και Zhou"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "中华人民共和国 国庆节",
+      "pinyin": "zhōnghuá rénmín gònghéguó guóqìng jié",
+      "meaning": "1949年10月1日; 中华人民共和国国庆节，通称国庆节、国庆，为纪念中华人民共和国成立而设立的节日，在每年的10月1日庆祝。1949年10月1日，中华人民共和国的开国大典在北京天安门广场举行，中华人民共和国中央人民政府正式成立。"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "儒家思想",
+      "pinyin": "rújiā sīxiǎng",
+      "meaning": "儒家 rújiā Confucian school, founded by Confucius 孔子 (551-479 BC) and Mencius 孟子 (c. 372-c. 289 BC)"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "勿忘国耻",
+      "pinyin": "wù wàng guóchǐ",
+      "meaning": "Never forget national humiliation, refers to Mukden railway incident of 18th September 1931 九一八事变 and subsequent Japanese annexation of Manchuria; We will not forget today's 85 years ago - on Septembe"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "雷锋",
+      "pinyin": "léifēng",
+      "meaning": "Lei Feng (1940-1962), made into a model of altruism and dedication to the Party by propaganda from 1963 onwards"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "三国志",
+      "pinyin": "sānguó zhì",
+      "meaning": "History of the Three Kingdoms, fourth of the 24 dynastic histories 二十四史, composed by Chen Shou 陈寿 in 289 during Jin Dynasty 晋朝, 65 scrolls; 二十四史èrshísì shǐ the Twenty-Four Histories (25 or 26 in moder"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "刘备",
+      "pinyin": "liúbèi",
+      "meaning": "Liu Bei (161-223), warlord at the end of the Han dynasty and founder of the Han kingdom of Shu 蜀汉 (c. 200-263), later the Shu Han dynasty"
+    },
+    {
+      "category": "history",
+      "source_sheet": "历史",
+      "char": "孙权",
+      "pinyin": "sūnquán",
+      "meaning": "Sun Quan (reigned 222-252), southern warlord and king of state of Wu 吴 in the Three Kingdoms period"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "节日 艺术",
+      "char": "寿宁县北路戏",
+      "pinyin": "Shòu níngxiàn běi lù xì",
+      "meaning": "Shouning County North Road Drama opera"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "节日 艺术",
+      "char": "端午节 Dragon Boat Festival (5th day of the 5th lunar month)",
+      "meaning": "多彩民俗迎端午 6月3日，在浙江省湖州市长兴县倪家田村，一艘花龙舟准备下水。 端午将至，人们参加多彩民俗活动迎接传统节日的到来。新华社发（谭云俸摄在江苏省苏州市金阊街道，居民季国琴老人制作虎头香囊。 端午将至，人们参加多彩民俗活动迎接传统节日的到来。 新华社发（杭兴微 摄） 在贵州省铜仁市玉屏侗族自治县舞阳河上，龙舟队进行训练。 端午将至，人们参加多彩民俗活动迎接传统节日的到来。 新华社发（欧秀灯"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "节日 艺术",
+      "char": "五卅运动wǔ sà yùndòng",
+      "meaning": "五卅运动是中国于北洋政府统治下反帝国主义和反当政的民国军阀势力的一场运动，由中国国民党上海执行部（时值第一次国共合作[a]）策划及领导的第一个重大群众运动。 事件发展至1925年5月30日，青岛、上海等地工人游行抗议日本棉纱厂非法开除及殴打工人，遭到开枪镇压，引发流血事件，是为五卅惨案（又称青沪惨案、五卅大屠杀）。; anti-imperialist movement of 30th May 19"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "节日 艺术",
+      "char": "腊月",
+      "meaning": "农历十二月，民间称为 “腊月”。在古代，人们在这个月祭拜众神，叫 “做腊”。 今天是腊月第八天，即 “腊月初八”，简称为“腊八”。 民间有“腊八过了就是年”的说法，各地风俗不太相同。我家会喝腊八粥，泡制腊八蒜。 祝大家腊八愉快！Nónglì shí'èr yuè, mínjiān chēng wèi “làyuè”. Zài gǔdài, rénmen zài zhège yuè jì bài z"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "节日 艺术",
+      "char": "过年",
+      "meaning": "关于“过年” 现在的“过年”人们已经渐渐失去了老的传统和习俗。对于东北孩子来说，小时候真的是非常盼望“过年”，因为“过年”意味着可以吃到好吃的，穿新衣服新鞋子，戴好看的头饰，可以有压岁钱，可以放鞭炮，可以看大秧歌.....总之，这一年的期待都包含这两个字里！那时候，过了腊八，真的就感觉“年”一步一步的近了，盼着盼着..... “过年”前的习俗可以用这一首北京童谣来概括，当然中国那么大，“过年”的风"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "Tao",
+      "char": "辟谷",
+      "pinyin": "pìgǔ",
+      "meaning": "to abstain from eating cereals (Taoistpractice); to fast"
+    },
+    {
+      "category": "medical",
+      "source_sheet": "医学术语",
+      "char": "医学术语",
+      "meaning": "Ιατρικοί όροι"
+    },
+    {
+      "category": "medical",
+      "source_sheet": "医学术语",
+      "char": "椎间盘突出，要命！",
+      "meaning": "Chuíjiānpán túchū, yàomìng!; Η κήλη δίσκου,"
+    },
+    {
+      "category": "medical",
+      "source_sheet": "医学术语",
+      "char": "白内障",
+      "pinyin": "báinèizhàng",
+      "meaning": "Καταρράκτης"
+    },
+    {
+      "category": "medical",
+      "source_sheet": "医学术语",
+      "char": "青光眼",
+      "pinyin": "qīngguāngyǎn",
+      "meaning": ", γλαύκωμα στα μάτια"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "甲骨文",
+      "pinyin": "script",
+      "meaning": "jiǎgǔ wén; oracle script; oracle bone inscriptions (an early form of Chinese script)"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "金文",
+      "pinyin": "script",
+      "meaning": "inscriptions on ancient bronze objects; 金文是指铸造在殷周青铜器上的铭文，也叫钟鼎文。商周是青铜器的时代，青铜器的礼器以鼎为代表，乐器以钟为代表，“钟鼎”是青铜器的代名词 。Jīn wén shì zhǐ zhùzào zài yīn zhōu qīngtóngqì shàng de míngwén, yě jiào zhōngdǐngwén. Shāng"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "小篆,大篆",
+      "pinyin": "script",
+      "meaning": "Xiǎozhuàn; the small or lesser seal, [an ancient style of calligraphy, adopted in the Qin Dynasty (221-207B. C.)for the purpose of standardizing the script;Hsiao chuan--the lesser seal style Chinese c"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "写法",
+      "pinyin": "lìshū tǐ",
+      "meaning": "隶书体; The clerical script (traditional Chinese: 隸書; simplified Chinese: 隶书; pinyin: lìshū; Japanese: 隷書体, reishotai; Vietnamese: lệ thư), also formerly chancery script, is an archaic style of Chinese c"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "楷书",
+      "pinyin": "kǎishū",
+      "meaning": "regular script (Chinese calligraphic style)"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "印刷体 yìnshuā tǐ",
+      "pinyin": "cǎoshū",
+      "meaning": "草书; http://m.fansart.com/a2781 https://kknews.cc/zh-cn/news/4evnoaq.html"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "行书",
+      "pinyin": "hángshū"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "简化字",
+      "pinyin": "jiǎnhuà zì"
+    },
+    {
+      "category": "script",
+      "source_sheet": "汉字",
+      "char": "飞白",
+      "meaning": "飞白是书法中的一种特殊笔法，相传是书法家蔡邕受了修鸿都门的工匠用帚子蘸白粉刷字的启发而创造的。东汉灵帝时修饰鸿都门 ，匠人用刷白粉的帚写字，蔡邕见后，归作“飞白书”。它的笔画有的部分呈枯丝平行，转折处笔画突出，北宋黄伯思说：\"取其若发丝处谓之白，其势若飞举者谓之飞。\"今人把书画的干枯笔触部分也泛称飞白，笔画中丝丝露白，像枯笔所写。 汉魏宫阙题字，曾广泛采用"
+    },
+    {
+      "category": "literature",
+      "source_sheet": "诗歌",
+      "char": "苏轼 （北宋文学家、书画家、唐宋八大家之一）",
+      "meaning": "Sūshì (běisòng wénxué jiā, shūhuà jiā, táng sòng bādà jiā zhī yī)"
+    },
+    {
+      "category": "literature",
+      "source_sheet": "诗歌",
+      "char": "苏轼（1037年1月8日-1101年8月24日）,字子瞻、和仲，号铁冠道人、东坡居士，世称苏东坡、苏仙， [1-3] 汉族，眉州眉山（今四川省眉山市）人，祖籍河北栾城，北宋著名文学家、书法家、美食家、画家，历史治水名人。 嘉祐二年（1057年），苏轼进士及第。宋神宗时在凤翔、杭州、密州、徐州、湖州等地任职.",
+      "meaning": "Sūshì (1037 nián 1 yuè 8 rì-1101 nián 8 yuè 24 rì), zì zi zhān, hé zhòng, hào tiě guān dàoren, dōng pō jūshì, shì chēng sūdōngpō, sū xiān, [1-3] hànzú, méi zhōu méishān (jīn sìchuān shěng méishān shì)"
+    },
+    {
+      "category": "literature",
+      "source_sheet": "诗歌",
+      "char": "黄庭坚",
+      "pinyin": "Huángtíngjiān"
+    },
+    {
+      "category": "literature",
+      "source_sheet": "诗歌",
+      "char": "黄庭坚（1045年6月12日—1105年9月30日），字鲁直，小字绳权，号清风阁、山谷道人、山谷老人、涪翁、涪皤、黔安居士、八桂老人，世称黄山谷、黄太史。洪州分宁（江西省九江市修水县）人，祖籍浙江金华。北宋诗人黄庶之子，南宋中奉大夫黄相之父。北宋大孝子，《二十四孝》中“涤亲溺器”故事的主角。北宋著名文学家、书法家、江西诗派开山之祖。",
+      "meaning": "Huángtíngjiān (1045 nián 6 yuè 12 rì—1105 nián 9 yuè 30 rì), zì lǔzhí, xiǎozì shéng quán, hào qīngfēng gé, shāngǔ dàoren, shāngǔ lǎorén, fú wēng, fú pó, qián ān jūshì, bā guì lǎorén, shì chēng huángsh"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "服饰",
+      "char": "衣冠",
+      "meaning": "宋代男子服饰，头戴幞头长袍大袖"
+    },
+    {
+      "category": "culture",
+      "source_sheet": "服饰",
+      "char": "宋代男子服饰，头戴幞头长袍大袖 宋代大体沿袭唐制，袍衫仍然比较宽大，裙裤也比较肥阔，但是由于阶级地位的不同而趋向两极分化。赵国胤做了宋朝的开国皇帝，重定了服制，仅衣带的等级就有二十八种之多。",
+      "meaning": "Sòngdài nánzǐ fúshì, tóu dài fútóu chángpáo dà xiù sòngdài dàtǐ yánxí táng zhì, páo shān réngrán bǐjiào kuāndà, qún kù yě bǐjiào féi kuò, dànshì yóuyú jiējí dìwèi de bùtóng ér qūxiàng liǎngjí fèn huà."
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "A yuán (元) is also known colloquially as a kuài (块 \"lump\", originally of silver). One yuán is divided into 10 jiǎo (角) or colloquially máo (毛 \"feather\"). One jiǎo is divided into 10 fēn (分)."
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "链接"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "圆明园",
+      "pinyin": "yuánmíngyuán"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "苏洲",
+      "pinyin": "Sūzhōu"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "杭洲",
+      "pinyin": "Hángzhōu"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "王羲之",
+      "pinyin": "Wángxīzhī"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "嫦娥奔月",
+      "meaning": "Cháng'é bēn yuè"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "唐朝",
+      "pinyin": "Táng cháo",
+      "meaning": "Tang Dynasty"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "蒙恬",
+      "pinyin": "Meng Tian"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "君子兰",
+      "pinyin": "Jūnzǐlán",
+      "meaning": "κλίβια"
+    },
+    {
+      "category": "places",
+      "source_sheet": "景点",
+      "char": "巍巍黄鹤楼",
+      "pinyin": "wéiwéi huáng hè lóu",
+      "meaning": "Yellow Crane Tower in Wuhan City, built in 223, burnt down in 1884, rebuilt in 1985; favored place of poet sages, who in legend arrived riding golden cranes; Tang poem by Cui Hao 崔颢, with theme 'the p"
+    }
+  ]
+}
