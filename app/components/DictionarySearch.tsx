@@ -26,10 +26,10 @@ export default function DictionarySearch() {
   const fuseRef = useRef<Fuse<Entry> | null>(null)
 
   useEffect(() => {
-    fetch('/data/entries.json')
+    fetch('/d_data/entries.json')
       .then(r => r.json())
-      .then((data: Entry[]) => {
-        fuseRef.current = new Fuse(data, FUSE_OPTIONS)
+      .then((d_data: Entry[]) => {
+        fuseRef.current = new Fuse(d_data, FUSE_OPTIONS)
         setReady(true)
       })
   }, [])

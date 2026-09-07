@@ -7,7 +7,7 @@ import { join } from 'path'
 import type { Entry } from '../lib/types'
 
 function getAllEntries(): Entry[] {
-  const filePath = join(process.cwd(), 'public', 'data', 'entries.json')
+  const filePath = join(process.cwd(), 'public', 'd_data', 'entries.json')
   return JSON.parse(readFileSync(filePath, 'utf-8'))
 }
 

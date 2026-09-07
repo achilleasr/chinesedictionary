@@ -9,7 +9,7 @@ import type { Entry } from '@/app/lib/types'
 async function getAllEntries(): Promise<Entry[]> {
   const { readFileSync } = await import('fs')
   const { join } = await import('path')
-  const filePath = join(process.cwd(), 'public', 'data', 'entries.json')
+  const filePath = join(process.cwd(), 'public', 'd_data', 'entries.json')
   return JSON.parse(readFileSync(filePath, 'utf-8'))
 }
 
