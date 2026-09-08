@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 dark:bg-gray-950 px-4 py-12">
-      <Link href="/index" className="text-sm text-gray-400 hover:text-red-500">
+      <Link href="/all" className="text-sm text-gray-400 hover:text-red-500">
         Browse full index →
       </Link>
       <div className="max-w-2xl mx-auto mb-10 text-center">
