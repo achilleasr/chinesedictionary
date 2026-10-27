@@ -20,6 +20,9 @@ export const dict = {
     strokes: 'strokes',
     variants: 'Variants',
     words: 'Words',
+    browseIndex: 'Browse full index →',
+    searchPlaceholder: 'Search hanzi, pinyin, or meaning…',
+    noResults: 'No results',
   },
   gr: {
     backSearch: '← Πίσω στην αναζήτηση',
@@ -33,6 +36,9 @@ export const dict = {
     strokes: 'γραμμές',
     variants: 'Παραλλαγές',
     words: 'Λέξεις',
+    browseIndex: 'Πλήρες ευρετήριο →',
+    searchPlaceholder: 'Αναζήτηση με hanzi, pinyin ή σημασία…',
+    noResults: 'Κανένα αποτέλεσμα',
   },
 } as const
 
