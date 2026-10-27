@@ -22,10 +22,13 @@ export type EtymRoot = {
 }
 
 const MAX_DEPTH = 8
-const NODE_W = 68
-const NODE_H = 84
-const H_GAP = 6
-const V_GAP = 18
+// layout units (not real pixels: the whole tree is scaled to fit the width)
+const NODE_W = 96
+const NODE_H = 104
+const H_GAP = 4
+const V_GAP = 22
+// how far a small tree may be scaled up beyond its layout size
+const MAX_SCALE = 1
 
 type LNode = {
   key: string
@@ -41,7 +44,7 @@ type LNode = {
 }
 
 const box =
-  'absolute flex flex-col items-center justify-center overflow-hidden rounded border px-1 text-center leading-tight'
+  'absolute flex flex-col items-center justify-center overflow-hidden rounded-md border text-center leading-tight'
 
 export default function EtymologyTree({
   rows,
@@ -69,25 +72,31 @@ export default function EtymologyTree({
   }
 
   // ---- build the tree ----
-  function build(wordId: number, depth: number, path: number[]): LNode[] {
+  function build(
+    wordId: number,
+    depth: number,
+    path: number[],
+    parentKey: string
+  ): LNode[] {
     const items = childrenOf.get(wordId)
     if (!items || depth > MAX_DEPTH || path.includes(wordId)) return []
     const out: LNode[] = []
     for (const e of items) {
+      const key = `${parentKey}/e${e.id}`
       if (e.component_word_id) {
         out.push({
-          key: `e${e.id}-${path.length}`,
+          key,
           href: `/word/${e.component_word_id}${qs}`,
           radical: false,
           big: e.hanzi ?? '',
           sub: e.pinyin ?? '',
           meaning: e.word_meaning,
-          children: build(e.component_word_id, depth + 1, [...path, wordId]),
+          children: build(e.component_word_id, depth + 1, [...path, wordId], key),
           width: 0, cx: 0, y: 0,
         })
       } else if (e.radical_id) {
         out.push({
-          key: `e${e.id}-${path.length}`,
+          key,
           href: `/radical/${e.radical_id}${qs}`,
           radical: true,
           big: e.radical_char ?? '',
@@ -100,7 +109,6 @@ export default function EtymologyTree({
     }
     return out
   }
-
   const top: LNode = {
     key: 'root',
     href: null,
@@ -108,7 +116,7 @@ export default function EtymologyTree({
     big: root.hanzi,
     sub: root.pinyin ?? '',
     meaning: root.meaning,
-    children: build(rootId, 1, []),
+    children: build(rootId, 1, [], 'root'),
     width: 0, cx: 0, y: 0,
   }
 
@@ -157,10 +165,27 @@ export default function EtymologyTree({
 
   const totalH = (maxDepth + 1) * NODE_H + maxDepth * V_GAP
 
+  // convert layout units to container-relative sizes so everything scales together
+  const cq = (units: number) => `${(units / totalW) * 100}cqw`
+  const pctX = (units: number) => `${(units / totalW) * 100}%`
+  const pctY = (units: number) => `${(units / totalH) * 100}%`
+
+  // keep multi-character words on one line by shrinking the font
+  const hanziUnits = (text: string, isRoot: boolean) => {
+    const max = isRoot ? 44 : 38
+    const len = Math.max(1, [...text].length)
+    return Math.min(max, Math.floor((NODE_W - 8) / len))
+  }
+
   return (
     <div
-      className="relative mx-auto w-full"
-      style={{ maxWidth: totalW, height: totalH }}
+      className="relative mx-auto"
+      style={{
+        width: '100%',
+        maxWidth: totalW * MAX_SCALE,
+        aspectRatio: `${totalW} / ${totalH}`,
+        containerType: 'inline-size',
+      }}
     >
       <svg
         className="absolute inset-0 h-full w-full"
@@ -185,20 +210,30 @@ export default function EtymologyTree({
 
       {all.map((n) => {
         const style = {
-          left: `${((n.cx - NODE_W / 2) / totalW) * 100}%`,
-          width: `${(NODE_W / totalW) * 100}%`,
-          top: n.y,
-          height: NODE_H,
+          left: pctX(n.cx - NODE_W / 2),
+          width: pctX(NODE_W),
+          top: pctY(n.y),
+          height: pctY(NODE_H),
+          padding: cq(4),
         }
         const inner = (
           <>
-            <span className={n.key === 'root' ? 'text-2xl' : 'text-xl'}>
+            <span
+              className="whitespace-nowrap leading-none"
+              style={{ fontSize: cq(hanziUnits(n.big, n.key === 'root')) }}
+            >
               {n.big}
             </span>
-            <span className="text-[10px] text-gray-400">{n.sub}</span>
+            <span
+              className="text-gray-400"
+              style={{ fontSize: cq(12), marginTop: cq(3) }}
+            >
+              {n.sub}
+            </span>
             {n.meaning && (
               <span
-                className="mt-0.5 line-clamp-2 text-[10px]"
+                className="line-clamp-3"
+                style={{ fontSize: cq(12), marginTop: cq(2) }}
                 title={n.meaning}
               >
                 {n.meaning}

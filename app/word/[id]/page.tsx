@@ -144,6 +144,7 @@ export default async function WordPage({
   const measureWords = measureRes.rows
   const etymology = etymRes.rows as EtymRow[]
   const first = meanings[0]
+
     const rootMeaning: string | null = first
       ? lang === 'gr'
         ? first.meaning_gr || first.meaning_en || null
@@ -168,7 +169,7 @@ export default async function WordPage({
   const heading = 'text-sm uppercase tracking-wide text-gray-400 mb-2'
 
   return (
-    <main className="max-w-2xl mx-auto px-4 py-12 text-gray-900 dark:text-gray-100">
+    <main className="min-w-90 mx-20 px-4 py-12 text-gray-900 dark:text-gray-100">
       <div className="flex items-center justify-between">
         <Link href={`/${qs}`} className="text-sm text-gray-400 hover:text-red-500">
           {t.backSearch}
@@ -263,15 +264,15 @@ export default async function WordPage({
 
       {/* Etymology */}
       {etymology.length > 0 && (
-             <section className="mt-10">
-               <h2 className={heading}>{t.etymology}</h2>
-               <EtymologyTree
-                 rows={etymology}
-                 rootId={word.id}
-                 root={{ hanzi: word.hanzi, pinyin: word.pinyin, meaning: rootMeaning }}
-                 lang={lang}
-               />
-             </section>
+        <section className="relative left-1/2 w-full -translate-x-1/2 px-4">
+            <h2 className={heading}>{t.etymology}</h2>
+            <EtymologyTree
+              rows={etymology}
+              rootId={word.id}
+              root={{ hanzi: word.hanzi, pinyin: word.pinyin, meaning: rootMeaning }}
+              lang={lang}
+            />
+          </section>
            )}
 
       {/* Related words */}
