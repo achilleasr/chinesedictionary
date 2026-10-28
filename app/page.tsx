@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import DictionarySearch from './components/DictionarySearch'
 import { dict, langQs, LangToggle, parseLang } from '@/app/lib/i18n'
+import {pool} from '@/app/lib/database'
 
 export default async function Home({
   searchParams,
@@ -40,9 +41,7 @@ const chip =
 return (
   <main className="max-w-4xl mx-auto px-4 py-6 text-gray-900 dark:text-gray-100">
     <div className="flex w-full justify-end">
-      {/*<Link href={`/${qs}`} className="text-sm text-gray-400 hover:text-red-500">
-        {t.backSearch}
-      </Link>*/}
+
       <LangToggle path="/" lang={lang} />
     </div>
     <div className="max-w-2xl mx-auto my-5 text-center">
@@ -71,7 +70,12 @@ return (
         </a>
       ))}
     </nav>
-
+    <Link
+      href="/radicals"
+      className="px-3 py-2 rounded border border-gray-300 dark:border-gray-700 text-black bg-blue-200 hover:text-blue-500"
+    >
+      Radicals
+    </Link>
     {groups.map((g) => (
       <section key={g.letter} id={g.letter} className="mt-3 scroll-mt-6">
         <h2 className="text-sm uppercase tracking-wide text-gray-400 mb-3">
