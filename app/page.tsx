@@ -38,14 +38,14 @@ const chip =
   'px-3 py-2 rounded border border-gray-300 dark:border-gray-700 hover:text-red-500 hover:border-red-500'
 
 return (
-  <main className="max-w-2xl mx-auto px-4 py-12 text-gray-900 dark:text-gray-100">
-    <div className="flex items-center justify-between">
-      <Link href={`/${qs}`} className="text-sm text-gray-400 hover:text-red-500">
+  <main className="max-w-4xl mx-auto px-4 py-6 text-gray-900 dark:text-gray-100">
+    <div className="flex w-full justify-end">
+      {/*<Link href={`/${qs}`} className="text-sm text-gray-400 hover:text-red-500">
         {t.backSearch}
-      </Link>
-      <LangToggle path="/words" lang={lang} />
+      </Link>*/}
+      <LangToggle path="/" lang={lang} />
     </div>
-    <div className="max-w-2xl mx-auto my-10 text-center">
+    <div className="max-w-2xl mx-auto my-5 text-center">
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
         中文词典
       </h1>
@@ -58,13 +58,13 @@ return (
       placeholder={t.searchPlaceholder}
       noResultsText={t.noResults}
     />
-    <h1 className="mt-6 text-4xl font-bold">
+    {/*<h1 className="mt-6 text-4xl font-bold">
       {t.words}{' '}
       <span className="text-xl font-normal text-gray-400">{words.length}</span>
-    </h1>
+    </h1>*/}
 
     {/* letter jump links */}
-    <nav className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-gray-400">
+    <nav className="my-5 flex flex-wrap justify-between mx-2 text-m text-white-400">
       {groups.map((g) => (
         <a key={g.letter} href={`#${g.letter}`} className="hover:text-red-500">
           {g.letter}
@@ -73,11 +73,11 @@ return (
     </nav>
 
     {groups.map((g) => (
-      <section key={g.letter} id={g.letter} className="mt-8 scroll-mt-6">
-        <h2 className="text-sm uppercase tracking-wide text-gray-400 mb-2">
+      <section key={g.letter} id={g.letter} className="mt-3 scroll-mt-6">
+        <h2 className="text-sm uppercase tracking-wide text-gray-400 mb-3">
           {g.letter}
         </h2>
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-2">
           {g.items.map((w) => (
             <Link key={w.id} href={`/word/${w.id}${qs}`} className={chip}>
               {w.hanzi} <span className="text-gray-400">{w.pinyin}</span>
