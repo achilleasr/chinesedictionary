@@ -39,7 +39,6 @@ export default function DictionarySearch({
       return
     }
 
-    // debounce, and cancel any request still in flight
     const timer = setTimeout(async () => {
       abortRef.current?.abort()
       const ctrl = new AbortController()

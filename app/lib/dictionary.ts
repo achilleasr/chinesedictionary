@@ -1,6 +1,6 @@
 import type { Entry, Radical, GreekIndexEntry, Extras } from './types'
 
-// Cached in module scope — loaded once per server/client session
+// Cached in module scope
 let _entries: Entry[] | null = null
 
 export async function getEntries(): Promise<Entry[]> {

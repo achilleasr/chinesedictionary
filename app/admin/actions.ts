@@ -35,7 +35,6 @@ export async function saveWord(
   if (!hanzi) return { ok: false, error: 'Hanzi is required' }
 
   const blank = (s: string) => s.trim() || null
-  // a meaning with both fields empty counts as removed
   const meanings = d.meanings.filter((m) => m.meaning_en.trim() || m.meaning_gr.trim())
   const keepIds = meanings.map((m) => m.id).filter((x): x is number => x != null)
   const ids: number[] = []
@@ -48,12 +47,10 @@ export async function saveWord(
       [wordId, hanzi, blank(d.pinyin), d.radical_id]
     )
 
-    // remove meanings that were deleted in the editor
     await c.query(
       `DELETE FROM meanings WHERE word_id=$1 AND id <> ALL($2::int[])`,
       [wordId, keepIds]
     )
-    // park the numbers out of the way so renumbering can't clash with a unique constraint
     await c.query(
       `UPDATE meanings SET meaning_number = meaning_number + 1000 WHERE word_id=$1`,
       [wordId]

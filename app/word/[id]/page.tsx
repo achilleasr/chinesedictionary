@@ -7,7 +7,7 @@ import EtymologyTree, { EtymRow } from './EtymologyTree'
 import { isEditing } from '@/app/lib/auth'
 import EditToggle from '@/app/lib/EditToggle'
 import WordEditor from './WordEditor'
-import { pageWide, topBar, backLink, heading, chip } from '@/app/lib/ui'
+import { pageWide, topBar, backLink, heading, chip, splitLayout, leftCol, rightCol } from '@/app/lib/ui'
 
 type Sentence = {
   key: number
@@ -34,7 +34,6 @@ export default async function WordPage({
   const wordId = Number(id)
   if (!Number.isInteger(wordId)) notFound()
 
-  // 1. The word itself + its radical
   const { rows } = await pool.query(
     `SELECT w.id, w.hanzi, w.pinyin, w.radical_id,
             r."character" AS radical,
@@ -51,10 +50,9 @@ export default async function WordPage({
   if (rows.length === 0) notFound()
   const word = rows[0]
 
-  // 2. Everything else, fetched at the same time
   const [meaningsRes, sentencesRes, measureRes, relationsRes, etymRes] =
     await Promise.all([
-      // meanings + word type
+
       pool.query(
         `SELECT m.id, m.meaning_number, m.type_id,
                 CASE WHEN $2::text = 'gr'
@@ -69,7 +67,6 @@ export default async function WordPage({
         [wordId, lang]
       ),
 
-      // example sentences, linked through meanings
       pool.query(
         `SELECT sw.id AS key, sw.meaning_id,
                 s.chinese, s.pinyin, s.english, s.greek
@@ -81,7 +78,6 @@ export default async function WordPage({
         [wordId]
       ),
 
-      // measure words
       pool.query(
         `SELECT mwd.id, mwd.hanzi, mwd.pinyin
          FROM measurewords mw
@@ -90,7 +86,6 @@ export default async function WordPage({
         [wordId]
       ),
 
-      // related words (synonyms, opposites, ...)
       pool.query(
         `SELECT rel.id, rel.relation,
                 rw.id AS related_id, rw.hanzi, rw.pinyin
@@ -101,7 +96,6 @@ export default async function WordPage({
         [wordId]
       ),
 
-      // etymology: each position is a component word OR a radical
       pool.query(
         `WITH RECURSIVE tree AS (
              SELECT e.id, e.word_id AS parent_id, e."position",
@@ -143,15 +137,14 @@ export default async function WordPage({
       ),
     ])
 
-  // 3. Teacher edit mode: only load the dropdown lists when needed
   const editing = await isEditing()
   const [typesRes, radicalsRes] = editing
     ? await Promise.all([
-        pool.query(`SELECT id, name_en, name_gr FROM word_types ORDER BY id`),
-        pool.query(
-          `SELECT id, "character", pinyin, meaning_en FROM radicals ORDER BY id`
-        ),
-      ])
+      pool.query(`SELECT id, name_en, name_gr FROM word_types ORDER BY id`),
+      pool.query(
+        `SELECT id, "character", pinyin, meaning_en FROM radicals ORDER BY id`
+      ),
+    ])
     : [null, null]
 
   const meanings = meaningsRes.rows
@@ -165,7 +158,6 @@ export default async function WordPage({
       : first.meaning_en || first.meaning_gr || null
     : null
 
-  // group sentences by the meaning they belong to
   const sentencesByMeaning = new Map<number, Sentence[]>()
   for (const s of sentencesRes.rows as Sentence[]) {
     const list = sentencesByMeaning.get(s.meaning_id) ?? []
@@ -173,10 +165,9 @@ export default async function WordPage({
     sentencesByMeaning.set(s.meaning_id, list)
   }
 
-  // group related words by relation label
   const relationGroups: Record<string, typeof relationsRes.rows> = {}
   for (const r of relationsRes.rows) {
-    ;(relationGroups[r.relation ?? 'related'] ??= []).push(r)
+    ; (relationGroups[r.relation ?? 'related'] ??= []).push(r)
   }
 
 
@@ -192,154 +183,155 @@ export default async function WordPage({
         </div>
       </div>
 
-      {editing ? (
-        <WordEditor
-          key={wordId}
-          wordId={wordId}
-          lang={lang}
-          types={typesRes!.rows}
-          radicals={radicalsRes!.rows}
-          initial={{
-            hanzi: word.hanzi,
-            pinyin: word.pinyin ?? '',
-            radical_id: word.radical_id,
-            meanings: meanings.map((m) => ({
-              id: m.id,
-              type_id: m.type_id,
-              meaning_en: m.meaning_en ?? '',
-              meaning_gr: m.meaning_gr ?? '',
-            })),
-          }}
-        />
-      ) : (
-        <>
-          {/* Header */}
-          <header className="mt-6">
-            <h1 className="text-6xl font-bold">{word.hanzi}</h1>
-            <p className="text-2xl text-gray-500 dark:text-gray-400 mt-1">
-              {word.pinyin}
-            </p>
-            {word.radical && (
-              <Link
-                href={`/radical/${word.radical_id}${qs}`}
-                className="inline-block mt-3 text-gray-500 hover:text-red-500"
-              >
-                {word.radical_pinyin && `${word.radical_pinyin} `}R{word.radical_id}: {word.radical}
-                {word.radical_meaning && ` (${word.radical_meaning})`}
-              </Link>
-            )}
-          </header>
+      <div className={splitLayout}>
+        {/* LEFT: everything except etymology */}
+        <div className={leftCol}>
+          {editing ? (
+            <WordEditor
+              key={wordId}
+              wordId={wordId}
+              lang={lang}
+              types={typesRes!.rows}
+              radicals={radicalsRes!.rows}
+              initial={{
+                hanzi: word.hanzi,
+                pinyin: word.pinyin ?? '',
+                radical_id: word.radical_id,
+                meanings: meanings.map((m) => ({
+                  id: m.id,
+                  type_id: m.type_id,
+                  meaning_en: m.meaning_en ?? '',
+                  meaning_gr: m.meaning_gr ?? '',
+                })),
+              }}
+            />
+          ) : (
+            <>
+              <header className="mt-6">
+                <h1 className="text-6xl font-bold">{word.hanzi}</h1>
+                <p className="text-2xl text-gray-500 dark:text-gray-400 mt-1">
+                  {word.pinyin}
+                </p>
+                {word.radical && (
+                  <Link
+                    href={`/radical/${word.radical_id}${qs}`}
+                    className="inline-block mt-3 text-gray-500 hover:text-red-500"
+                  >
+                    {word.radical_pinyin && `${word.radical_pinyin} `}R{word.radical_id}: {word.radical}
+                    {word.radical_meaning && ` (${word.radical_meaning})`}
+                  </Link>
+                )}
+              </header>
 
-          {/* Meanings + their example sentences */}
-          {meanings.length > 0 && (
+              {meanings.length > 0 && (
+                <section className="mt-6">
+                  <h2 className={heading}>{t.meanings}</h2>
+                  <ol className="space-y-6">
+                    {meanings.map((m) => {
+                      const examples = sentencesByMeaning.get(m.id) ?? []
+                      const meaningText =
+                        lang === 'gr'
+                          ? m.meaning_gr || m.meaning_en
+                          : m.meaning_en || m.meaning_gr
+                      return (
+                        <li key={m.id}>
+                          <div>
+                            <span className="text-gray-400 mr-2">
+                              {m.meaning_number}.
+                            </span>
+                            {m.type && (
+                              <span className="text-sm italic text-gray-400 mr-2">
+                                {m.type}
+                              </span>
+                            )}
+                            <span className="text-lg">{meaningText}</span>
+                          </div>
+
+                          {examples.length > 0 && (
+                            <ul className="mt-3 ml-6 space-y-3 border-l-2 border-gray-200 dark:border-gray-800 pl-4">
+                              {examples.map((s) => {
+                                const translation =
+                                  lang === 'gr'
+                                    ? s.greek || s.english
+                                    : s.english || s.greek
+                                return (
+                                  <li key={s.key}>
+                                    <p className="text-lg">
+                                      <HighlightedText text={s.chinese} target={word.hanzi} />
+                                    </p>
+                                    {s.pinyin && (
+                                      <p className="text-sm text-gray-500">{s.pinyin}</p>
+                                    )}
+                                    {translation && <p className="text-sm">{translation}</p>}
+                                  </li>
+                                )
+                              })}
+                            </ul>
+                          )}
+                        </li>
+                      )
+                    })}
+                  </ol>
+                </section>
+              )}
+            </>
+          )}
+
+          {measureWords.length > 0 && (
             <section className="mt-6">
-              <h2 className={heading}>{t.meanings}</h2>
-              <ol className="space-y-6">
-                {meanings.map((m) => {
-                  const examples = sentencesByMeaning.get(m.id) ?? []
-                  const meaningText =
-                    lang === 'gr'
-                      ? m.meaning_gr || m.meaning_en
-                      : m.meaning_en || m.meaning_gr
-                  return (
-                    <li key={m.id}>
-                      <div>
-                        <span className="text-gray-400 mr-2">
-                          {m.meaning_number}.
-                        </span>
-                        {m.type && (
-                          <span className="text-sm italic text-gray-400 mr-2">
-                            {m.type}
-                          </span>
-                        )}
-                        <span className="text-lg">{meaningText}</span>
-                      </div>
-
-                      {examples.length > 0 && (
-                        <ul className="mt-3 ml-6 space-y-3 border-l-2 border-gray-200 dark:border-gray-800 pl-4">
-                          {examples.map((s) => {
-                            const translation =
-                              lang === 'gr'
-                                ? s.greek || s.english
-                                : s.english || s.greek
-                            return (
-                              <li key={s.key}>
-                                <p className="text-lg">
-                                  <HighlightedText text={s.chinese} target={word.hanzi} />
-                                </p>
-                                {s.pinyin && (
-                                  <p className="text-sm text-gray-500">{s.pinyin}</p>
-                                )}
-                                {translation && <p className="text-sm">{translation}</p>}
-                              </li>
-                            )
-                          })}
-                        </ul>
-                      )}
-                    </li>
-                  )
-                })}
-              </ol>
+              <h2 className={heading}>{t.measureWords}</h2>
+              <div className="flex flex-wrap gap-3">
+                {measureWords.map((mw) => (
+                  <Link key={mw.id} href={`/word/${mw.id}${qs}`} className={chip}>
+                    {mw.hanzi}{' '}
+                    <span className="text-gray-400">{mw.pinyin}</span>
+                  </Link>
+                ))}
+              </div>
             </section>
           )}
-        </>
-      )}
 
-      {/* Measure words */}
-      {measureWords.length > 0 && (
-        <section className="mt-6">
-          <h2 className={heading}>{t.measureWords}</h2>
-          <div className="flex flex-wrap gap-3">
-            {measureWords.map((mw) => (
-              <Link key={mw.id} href={`/word/${mw.id}${qs}`} className={chip}>
-                {mw.hanzi}{' '}
-                <span className="text-gray-400">{mw.pinyin}</span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Etymology */}
-      {etymology.length > 0 && (
-        <section className="mt-6">
-          <h2 className={heading}>{t.etymology}</h2>
-          <EtymologyTree
-            rows={etymology}
-            rootId={word.id}
-            root={{ hanzi: word.hanzi, pinyin: word.pinyin, meaning: rootMeaning }}
-            lang={lang}
-          />
-        </section>
-      )}
-
-      {/* Related words */}
-      {Object.keys(relationGroups).length > 0 && (
-        <section className="mt-10">
-          <h2 className={heading}>{t.relatedWords}</h2>
-          <div className="space-y-4">
-            {Object.entries(relationGroups).map(([relation, items]) => (
-              <div key={relation}>
-                <p className="text-sm text-gray-500 mb-1 capitalize">
-                  {relationLabel(relation, lang)}
-                </p>
-                <div className="flex flex-wrap gap-3">
-                  {items.map((r) => (
-                    <Link
-                      key={r.id}
-                      href={`/word/${r.related_id}${qs}`}
-                      className={chip}
-                    >
-                      {r.hanzi}{' '}
-                      <span className="text-gray-400">{r.pinyin}</span>
-                    </Link>
-                  ))}
-                </div>
+          {Object.keys(relationGroups).length > 0 && (
+            <section className="mt-10">
+              <h2 className={heading}>{t.relatedWords}</h2>
+              <div className="space-y-4">
+                {Object.entries(relationGroups).map(([relation, items]) => (
+                  <div key={relation}>
+                    <p className="text-sm text-gray-500 mb-1 capitalize">
+                      {relationLabel(relation, lang)}
+                    </p>
+                    <div className="flex flex-wrap gap-3">
+                      {items.map((r) => (
+                        <Link
+                          key={r.id}
+                          href={`/word/${r.related_id}${qs}`}
+                          className={chip}
+                        >
+                          {r.hanzi}{' '}
+                          <span className="text-gray-400">{r.pinyin}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </section>
-      )}
+            </section>
+          )}
+        </div>
+
+        {/* RIGHT: etymology tree */}
+        {etymology.length > 0 && (
+          <aside className={rightCol}>
+            <h2 className={heading}>{t.etymology}</h2>
+            <EtymologyTree
+              rows={etymology}
+              rootId={word.id}
+              root={{ hanzi: word.hanzi, pinyin: word.pinyin, meaning: rootMeaning }}
+              lang={lang}
+            />
+          </aside>
+        )}
+      </div>
     </main>
   )
 }

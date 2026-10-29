@@ -30,7 +30,7 @@ export async function logoutTeacher() {
 }
 
 export async function isTeacher() {
-  if (!secret) return false // no secret configured: nobody is a teacher
+  if (!secret) return false
   const c = (await cookies()).get('auth')?.value
   return c === sign('teacher').toString('hex')
 }

@@ -22,13 +22,12 @@ export type EtymRoot = {
 }
 
 const MAX_DEPTH = 8
-// layout units (not real pixels: the whole tree is scaled to fit the width)
 const NODE_W = 96
 const NODE_H = 104
 const H_GAP = 4
 const V_GAP = 22
-// how far a small tree may be scaled up beyond its layout size
 const MAX_SCALE = 1
+const MIN_W = 700
 
 type LNode = {
   key: string
@@ -38,7 +37,7 @@ type LNode = {
   sub: string
   meaning: string | null
   children: LNode[]
-  width: number // width of the whole subtree
+  width: number
   cx: number
   y: number
 }
@@ -59,7 +58,6 @@ export default function EtymologyTree({
 }) {
   const qs = langQs(lang)
 
-  // A word that appears in two branches produces duplicate rows, so dedupe by id
   const unique = [...new Map(rows.map((r) => [r.id, r])).values()]
   const childrenOf = new Map<number, EtymRow[]>()
   for (const r of unique) {
@@ -71,7 +69,7 @@ export default function EtymologyTree({
     list.sort((a, b) => (a.position ?? 0) - (b.position ?? 0))
   }
 
-  // ---- build the tree ----
+
   function build(
     wordId: number,
     depth: number,
@@ -120,7 +118,7 @@ export default function EtymologyTree({
     width: 0, cx: 0, y: 0,
   }
 
-  // ---- pass 1 (bottom-up): how much width does each subtree need? ----
+
   function measure(n: LNode): number {
     if (n.children.length === 0) return (n.width = NODE_W)
     const kids = n.children.reduce((s, c) => s + measure(c), 0)
@@ -128,7 +126,6 @@ export default function EtymologyTree({
   }
   const totalW = measure(top)
 
-  // ---- pass 2: place nodes; parent is centered over its children ----
   const all: LNode[] = []
   const edges: { x1: number; y1: number; x2: number; y2: number }[] = []
   let maxDepth = 0
@@ -165,12 +162,11 @@ export default function EtymologyTree({
 
   const totalH = (maxDepth + 1) * NODE_H + maxDepth * V_GAP
 
-  // convert layout units to container-relative sizes so everything scales together
+
   const cq = (units: number) => `${(units / totalW) * 100}cqw`
   const pctX = (units: number) => `${(units / totalW) * 100}%`
   const pctY = (units: number) => `${(units / totalH) * 100}%`
 
-  // keep multi-character words on one line by shrinking the font
   const hanziUnits = (text: string, isRoot: boolean) => {
     const max = isRoot ? 44 : 38
     const len = Math.max(1, [...text].length)
@@ -178,10 +174,14 @@ export default function EtymologyTree({
   }
 
   return (
+
+  <div className="overflow-x-auto pb-2">
+
     <div
       className="relative mx-auto"
       style={{
         width: '100%',
+        minWidth: Math.min(totalW, MIN_W),
         maxWidth: totalW * MAX_SCALE,
         aspectRatio: `${totalW} / ${totalH}`,
         containerType: 'inline-size',
@@ -268,6 +268,7 @@ export default function EtymologyTree({
           </Link>
         )
       })}
-    </div>
+      </div>
+  </div>
   )
 }

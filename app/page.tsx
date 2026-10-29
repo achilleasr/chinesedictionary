@@ -2,7 +2,7 @@ import Link from 'next/link'
 import DictionarySearch from './components/DictionarySearch'
 import { dict, langQs, LangToggle, parseLang } from '@/app/lib/i18n'
 import {pool} from '@/app/lib/database'
-import { page, chip, btn, heading } from '@/app/lib/ui'
+import { page, chip, btn} from '@/app/lib/ui'
 
 export default async function Home({
   searchParams,
@@ -18,13 +18,11 @@ const { rows } = await pool.query(
   `SELECT id, hanzi, pinyin FROM words`
 )
 
-// base letters first, tone marks only break ties
 const collator = new Intl.Collator('en')
 const words = (rows as { id: number; hanzi: string; pinyin: string }[]).sort(
   (a, b) => collator.compare(a.pinyin, b.pinyin) || a.hanzi.localeCompare(b.hanzi)
 )
 
-// group by first letter of the pinyin, ignoring tone marks
 const letterOf = (p: string) =>
   p.normalize('NFD').replace(/[\u0300-\u036f]/g, '').charAt(0).toUpperCase() || '#'
 
