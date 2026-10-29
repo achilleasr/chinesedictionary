@@ -1,6 +1,6 @@
 ## Demo
 
-**Live:** [chinesegreek.vercel.app](https:// https://chinesegreek.vercel.app)
+**Live:** [chinesegreek.vercel.app](https://chinesegreek.vercel.app)
 ![Search and word page](docs/demo.gif)
 
 ### Try it
