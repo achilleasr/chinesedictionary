@@ -1,4 +1,4 @@
-## Demo
+## Chinese Greek English dictionary with component breakdowns
 
 **Live:** [chinesegreek.vercel.app](https://chinesegreek.vercel.app)
 ![Search and word page](docs/demo.gif)
