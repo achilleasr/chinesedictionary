@@ -36,6 +36,6 @@ https://github.com/user-attachments/assets/5173f12d-6ed9-430d-a841-22e85c2ed4c7
 <img width="600" src="https://github.com/user-attachments/assets/77722ca0-8150-4653-b5ce-7eae5e4cbfba" /> 
 
 ### Database Schema
-Words point to their components, and components point down to the 214 radicals, which makes the etymology a recursive lookup.
+Words point to their components, and components point down to the 214 radicals or other components, which makes the etymology a recursive lookup.
 
 <img src="docs/db_schema.svg" width="600" alt="database schema">
