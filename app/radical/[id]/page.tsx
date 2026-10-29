@@ -55,7 +55,7 @@ export default async function RadicalPage({
         </Link>
         <LangToggle path={`/radical/${radicalId}`} lang={lang} />
       </div>
-
+<div className="mx-auto mt-6 max-w-4xl text-center">
       <header className="mt-6">
         <p className="text-sm uppercase tracking-wide text-gray-400">
                  R{radical.id}
@@ -87,7 +87,7 @@ export default async function RadicalPage({
           <h2 className={heading}>
             {t.wordsWithRadical}
           </h2>
-          <div className="flex flex-wrap gap-3">
+           <div className="flex flex-wrap justify-center gap-3">
             {words.map((w) => (
               <Link key={w.id} href={`/word/${w.id}${qs}`} className={chip}>
                 {w.hanzi} <span className="text-gray-400">{w.pinyin}</span>
@@ -95,7 +95,8 @@ export default async function RadicalPage({
             ))}
           </div>
         </section>
-      )}
+        )}
+</div>
     </main>
   )
 }

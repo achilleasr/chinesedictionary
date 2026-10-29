@@ -58,9 +58,9 @@ export async function GET(req: NextRequest) {
        w.pinyin
      LIMIT 30`,
     [
-      `%${qLike}%`, // $1 hanzi contains
-      `%${pLike}%`, // $2 pinyin contains
-      `%${qLike}%`, // $3 meaning contains
+      `%${qLike}%`, // $1 hanzi
+      `%${pLike}%`, // $2 pinyin
+      `%${qLike}%`, // $3 meaning
       lang,         // $4
       q,            // $5 exact hanzi
       `${qLike}%`,  // $6 hanzi prefix

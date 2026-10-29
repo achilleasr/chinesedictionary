@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { pool } from "@/app/lib/database";
 import { dict, langQs, LangToggle, parseLang } from "@/app/lib/i18n";
-import { page, topBar, backLink, heading, card } from "@/app/lib/ui";
+import { pageWide, topBar, backLink, heading, card } from "@/app/lib/ui";
 
 type Radical = {
   id: number;
@@ -34,7 +34,7 @@ export default async function RadicalsPage({
   }
 
   return (
-    <main className={page}>
+    <main className={pageWide}>
       <div className={topBar}>
         <Link href={`/${qs}`} className={backLink}>
           {t.backSearch}
@@ -60,7 +60,7 @@ export default async function RadicalsPage({
             <span className="normal-case tracking-normal">{items.length}</span>
           </h2>
 
-          <ul className="grid grid-cols-[repeat(auto-fill,minmax(88px,1fr))] gap-2">
+          <ul className="grid w-full grid-cols-2 gap-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 2xl:grid-cols-12">
             {items.map((r) => {
               const meaning =
                 lang === "gr"
@@ -74,7 +74,9 @@ export default async function RadicalsPage({
                     </span>
                     <span lang="zh" className="block text-2xl leading-tight">
                       {r.character}
+
                     </span>
+
                     {r.pinyin && (
                       <span className="block text-sm text-gray-500 dark:text-gray-400">
                         {r.pinyin}
@@ -82,6 +84,12 @@ export default async function RadicalsPage({
                     )}
                     {meaning && (
                       <span className="block text-xs text-gray-400">{meaning}</span>
+                    )}
+
+                    {r.variants && (
+                      <span lang="zh" className="block text-sm text-gray-400">
+                       {r.variants}
+                      </span>
                     )}
                   </Link>
                 </li>

@@ -36,7 +36,6 @@ export default function WordEditor({
   const [pending, start] = useTransition()
   const dirty = JSON.stringify(draft) !== saved
 
-  // warn before leaving with unsaved changes
   useEffect(() => {
     if (!dirty) return
     const h = (e: BeforeUnloadEvent) => e.preventDefault()
@@ -83,7 +82,6 @@ export default function WordEditor({
         setMsg({ error: true, text: res.error })
         return
       }
-      // adopt the ids of newly created meanings so the next save updates instead of duplicating
       const next: WordDraft = {
         ...clean,
         meanings: clean.meanings.map((m, i) => ({ ...m, id: res.meaningIds[i] })),
