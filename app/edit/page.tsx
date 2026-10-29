@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import { isTeacher, loginTeacher, logoutTeacher } from '@/app/lib/auth'
+import { btn } from '@/app/lib/ui'
 
 export default async function EditLogin({
   searchParams,
@@ -21,8 +22,6 @@ export default async function EditLogin({
     redirect('/edit')
   }
 
-  const btn =
-    'px-4 py-2 rounded border border-gray-300 dark:border-gray-700 hover:text-red-500 hover:border-red-500'
 
   return (
     <main className="max-w-sm mx-auto px-4 py-24 text-gray-900 dark:text-gray-100">
