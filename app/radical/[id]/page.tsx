@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { pool } from '@/app/lib/database'
 import { dict, langQs, LangToggle, parseLang } from '@/app/lib/i18n'
+import { pageWide, topBar, backLink, heading, chip } from '@/app/lib/ui'
 
 export default async function RadicalPage({
   params,
@@ -43,15 +44,12 @@ export default async function RadicalPage({
     [radicalId]
   )
 
-  const chip =
-    'px-3 py-2 rounded border border-gray-300 dark:border-gray-700 hover:text-red-500 hover:border-red-500'
-
   return (
-    <main className="max-w-2xl mx-auto px-4 py-12 text-gray-900 dark:text-gray-100">
-      <div className="flex items-center justify-between">
+    <main className={pageWide}>
+      <div className={topBar}>
         <Link
           href={`/radicals${qs}`}
-          className="text-sm text-gray-400 hover:text-red-500"
+          className={backLink}
         >
           {t.allRadicals}
         </Link>
@@ -86,7 +84,7 @@ export default async function RadicalPage({
 
       {words.length > 0 && (
         <section className="mt-10">
-          <h2 className="text-sm uppercase tracking-wide text-gray-400 mb-2">
+          <h2 className={heading}>
             {t.wordsWithRadical}
           </h2>
           <div className="flex flex-wrap gap-3">

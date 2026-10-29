@@ -7,6 +7,7 @@ import EtymologyTree, { EtymRow } from './EtymologyTree'
 import { isEditing } from '@/app/lib/auth'
 import EditToggle from '@/app/lib/EditToggle'
 import WordEditor from './WordEditor'
+import { pageWide, topBar, backLink, heading, chip } from '@/app/lib/ui'
 
 type Sentence = {
   key: number
@@ -178,14 +179,11 @@ export default async function WordPage({
     ;(relationGroups[r.relation ?? 'related'] ??= []).push(r)
   }
 
-  const chip =
-    'px-3 py-2 rounded border border-gray-300 dark:border-gray-700 hover:text-red-500 hover:border-red-500'
-  const heading = 'text-sm uppercase tracking-wide text-gray-400 mb-2'
 
   return (
-    <main className="min-w-90 mx-20 px-4 py-12 text-gray-900 dark:text-gray-100">
-      <div className="flex items-center justify-between">
-        <Link href={`/${qs}`} className="text-sm text-gray-400 hover:text-red-500">
+    <main className={pageWide}>
+      <div className={topBar}>
+        <Link href={`/${qs}`} className={backLink}>
           {t.backSearch}
         </Link>
         <div className="flex items-center gap-4">
@@ -234,7 +232,7 @@ export default async function WordPage({
 
           {/* Meanings + their example sentences */}
           {meanings.length > 0 && (
-            <section className="mt-10">
+            <section className="mt-6">
               <h2 className={heading}>{t.meanings}</h2>
               <ol className="space-y-6">
                 {meanings.map((m) => {
@@ -289,7 +287,7 @@ export default async function WordPage({
 
       {/* Measure words */}
       {measureWords.length > 0 && (
-        <section className="mt-10">
+        <section className="mt-6">
           <h2 className={heading}>{t.measureWords}</h2>
           <div className="flex flex-wrap gap-3">
             {measureWords.map((mw) => (
@@ -304,7 +302,7 @@ export default async function WordPage({
 
       {/* Etymology */}
       {etymology.length > 0 && (
-        <section className="relative left-1/2 w-full -translate-x-1/2 px-4">
+        <section className="mt-6">
           <h2 className={heading}>{t.etymology}</h2>
           <EtymologyTree
             rows={etymology}

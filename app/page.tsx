@@ -2,6 +2,7 @@ import Link from 'next/link'
 import DictionarySearch from './components/DictionarySearch'
 import { dict, langQs, LangToggle, parseLang } from '@/app/lib/i18n'
 import {pool} from '@/app/lib/database'
+import { page, chip, btn, heading } from '@/app/lib/ui'
 
 export default async function Home({
   searchParams,
@@ -35,11 +36,8 @@ for (const w of words) {
   else groups.push({ letter, items: [w] })
 }
 
-const chip =
-  'px-3 py-2 rounded border border-gray-300 dark:border-gray-700 hover:text-red-500 hover:border-red-500'
-
 return (
-  <main className="max-w-4xl mx-auto px-4 py-6 text-gray-900 dark:text-gray-100">
+  <main className={page}>
     <div className="flex w-full justify-end">
 
       <LangToggle path="/" lang={lang} />
@@ -57,28 +55,20 @@ return (
       placeholder={t.searchPlaceholder}
       noResultsText={t.noResults}
     />
-    {/*<h1 className="mt-6 text-4xl font-bold">
-      {t.words}{' '}
-      <span className="text-xl font-normal text-gray-400">{words.length}</span>
-    </h1>*/}
 
-    {/* letter jump links */}
-    <nav className="my-5 flex flex-wrap justify-between mx-2 text-m text-white-400">
+    <nav className="my-5 flex flex-wrap justify-between mx-2 text-gray-400 hover:text-red-500">
       {groups.map((g) => (
         <a key={g.letter} href={`#${g.letter}`} className="hover:text-red-500">
           {g.letter}
         </a>
       ))}
     </nav>
-    <Link
-      href="/radicals"
-      className="px-3 py-2 rounded border border-gray-300 dark:border-gray-700 text-black bg-blue-200 hover:text-blue-500"
-    >
+    <Link href={`/radicals${qs}`} className={btn}>
       Radicals
     </Link>
     {groups.map((g) => (
       <section key={g.letter} id={g.letter} className="mt-3 scroll-mt-6">
-        <h2 className="text-sm uppercase tracking-wide text-gray-400 mb-3">
+        <h2 className='{${heading} mb-3}'>
           {g.letter}
         </h2>
         <div className="flex flex-wrap gap-2">

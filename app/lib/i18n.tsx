@@ -10,7 +10,7 @@ export const langQs = (lang: Lang) => (lang === 'gr' ? '?lang=gr' : '')
 export const dict = {
   en: {
     backSearch: '← Back to search',
-    allRadicals: '← All radicals',
+    allRadicals: 'All radicals',
     radical: 'Radical',
     meanings: 'Meanings',
     measureWords: 'Measure words',
@@ -26,7 +26,7 @@ export const dict = {
   },
   gr: {
     backSearch: '← Πίσω στην αναζήτηση',
-    allRadicals: '← Όλα τα ριζικά',
+    allRadicals: 'Όλα τα ριζικά',
     radical: 'Ριζικό',
     meanings: 'Σημασίες',
     measureWords: 'Ποσοδείκτες',
