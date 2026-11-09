@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { langQs, Lang } from '@/app/lib/i18n'
+import { langQs, Lang } from '@/app/helpers/i18n'
 
 export type EtymRow = {
   id: number

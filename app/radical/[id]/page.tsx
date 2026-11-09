@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { pool } from '@/app/lib/database'
-import { dict, langQs, LangToggle, parseLang } from '@/app/lib/i18n'
-import { pageWide, topBar, backLink, heading, chip } from '@/app/lib/ui'
+import { pool } from '@/app/helpers/database'
+import { dict, langQs, LangToggle, parseLang ,parseId} from '@/app/helpers/i18n'
+import { pageWide, topBar, backLink, heading, chip } from '@/app/helpers/ui'
 
 export default async function RadicalPage({
   params,
@@ -17,8 +17,9 @@ export default async function RadicalPage({
   const t = dict[lang]
   const qs = langQs(lang)
 
-  const radicalId = Number(id)
-  if (!Number.isInteger(radicalId)) notFound()
+
+const radicalId = parseId(id, 32767)
+  if (radicalId === null) notFound()
 
   const { rows } = await pool.query(
     `SELECT id, "character", pinyin, meaning_en, meaning_gr,

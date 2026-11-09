@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { pool } from "@/app/lib/database";
-import { dict, langQs, LangToggle, parseLang } from "@/app/lib/i18n";
-import { pageWide, topBar, backLink, heading, card } from "@/app/lib/ui";
+import { pool } from "@/app/helpers/database";
+import { dict, langQs, LangToggle, parseLang } from "@/app/helpers/i18n";
+import { pageWide, topBar, backLink, heading, card } from "@/app/helpers/ui";
 
 type Radical = {
   id: number;

@@ -1,7 +1,7 @@
 'use server'
 import { revalidatePath } from 'next/cache'
-import { pool } from '@/app/lib/database'
-import { isTeacher, setEditMode } from '@/app/lib/auth'
+import { pool } from '@/app/helpers/database'
+import { isTeacher, setEditMode } from '@/app/helpers/auth'
 
 async function requireTeacher() {
   if (!(await isTeacher())) throw new Error('Not authorized')

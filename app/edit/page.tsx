@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
-import { isTeacher, loginTeacher, logoutTeacher } from '@/app/lib/auth'
-import { btn } from '@/app/lib/ui'
+import { isTeacher, loginTeacher, logoutTeacher } from '@/app/helpers/auth'
+import { btn } from '@/app/helpers/ui'
 
 export default async function EditLogin({
   searchParams,

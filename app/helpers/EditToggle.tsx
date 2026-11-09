@@ -1,4 +1,4 @@
-import { isTeacher, isEditing } from '@/app/lib/auth'
+import { isTeacher, isEditing } from '@/app/helpers/auth'
 import { toggleEditMode } from '@/app/admin/actions'
 
 export default async function EditToggle() {

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import DictionarySearch from './components/DictionarySearch'
-import { dict, langQs, LangToggle, parseLang } from '@/app/lib/i18n'
-import {pool} from '@/app/lib/database'
-import { page, chip, btn} from '@/app/lib/ui'
+import { dict, langQs, LangToggle, parseLang } from '@/app/helpers/i18n'
+import {pool} from '@/app/helpers/database'
+import { page, chip, btn} from '@/app/helpers/ui'
 
 export default async function Home({
   searchParams,
@@ -41,10 +41,10 @@ return (
       <LangToggle path="/" lang={lang} />
     </div>
     <div className="max-w-2xl mx-auto my-5 text-center">
-      <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
+      <h1 className="text-4xl font-bold text-white mb-2">
         中文词典
       </h1>
-      <p className="text-gray-500 dark:text-gray-400">
+      <p className="text-gray-400">
         Chinese · Greek · English
       </p>
     </div>

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { pool } from '@/app/lib/database'
+import { pool } from '@/app/helpers/database'
 
 const escapeLike = (s: string) => s.replace(/[\\%_]/g, '\\$&')
 

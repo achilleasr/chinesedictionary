@@ -4,8 +4,23 @@ export type Lang = 'en' | 'gr'
 
 export const parseLang = (v?: string): Lang => (v === 'gr' ? 'gr' : 'en')
 
-
 export const langQs = (lang: Lang) => (lang === 'gr' ? '?lang=gr' : '')
+
+export function pickByLang(
+  lang: Lang,
+  en?: string | null,
+  gr?: string | null
+): string | null {
+  const preferred = lang === 'gr' ? gr : en
+  const fallback = lang === 'gr' ? en : gr
+  return preferred || fallback || null
+}
+
+export function parseId(id: string, max = 2_147_483_647): number | null {
+  if (!/^\d+$/.test(id)) return null
+  const n = Number(id)
+  return Number.isSafeInteger(n) && n > 0 && n <= max ? n : null
+}
 
 export const dict = {
   en: {
@@ -51,7 +66,6 @@ const relationGr: Record<string, string> = {
 
 export const relationLabel = (relation: string, lang: Lang) =>
   lang === 'gr' ? relationGr[relation.toLowerCase()] ?? relation : relation
-
 
 export function LangToggle({ path, lang }: { path: string; lang: Lang }) {
   const active = 'font-bold text-gray-900 dark:text-gray-100'

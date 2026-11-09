@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { pool } from '@/app/lib/database'
-import { dict, langQs, LangToggle, parseLang, relationLabel } from '@/app/lib/i18n'
+import { pool } from '@/app/helpers/database'
+import { dict, langQs, LangToggle, parseLang, pickByLang, parseId, relationLabel } from '@/app/helpers/i18n'
 import HighlightedText from './HighlightedText'
 import EtymologyTree, { EtymRow } from './EtymologyTree'
-import { isEditing } from '@/app/lib/auth'
-import EditToggle from '@/app/lib/EditToggle'
+import { isEditing } from '@/app/helpers/auth'
+import EditToggle from '@/app/helpers/EditToggle'
 import WordEditor from './WordEditor'
-import { pageWide, topBar, backLink, heading, chip, splitLayout, leftCol, rightCol } from '@/app/lib/ui'
+import { pageWide, topBar, backLink, heading, chip, splitLayout, leftCol, rightCol } from '@/app/helpers/ui'
+
 
 type Sentence = {
   key: number
@@ -31,8 +32,8 @@ export default async function WordPage({
   const t = dict[lang]
   const qs = langQs(lang)
 
-  const wordId = Number(id)
-  if (!Number.isInteger(wordId)) notFound()
+  const wordId = parseId(id)
+  if (wordId === null) notFound()
 
   const { rows } = await pool.query(
     `SELECT w.id, w.hanzi, w.pinyin, w.radical_id,
@@ -152,11 +153,7 @@ export default async function WordPage({
   const etymology = etymRes.rows as EtymRow[]
   const first = meanings[0]
 
-  const rootMeaning: string | null = first
-    ? lang === 'gr'
-      ? first.meaning_gr || first.meaning_en || null
-      : first.meaning_en || first.meaning_gr || null
-    : null
+  const rootMeaning = pickByLang(lang, first?.meaning_en, first?.meaning_gr)
 
   const sentencesByMeaning = new Map<number, Sentence[]>()
   for (const s of sentencesRes.rows as Sentence[]) {
@@ -229,10 +226,7 @@ export default async function WordPage({
                   <ol className="space-y-6">
                     {meanings.map((m) => {
                       const examples = sentencesByMeaning.get(m.id) ?? []
-                      const meaningText =
-                        lang === 'gr'
-                          ? m.meaning_gr || m.meaning_en
-                          : m.meaning_en || m.meaning_gr
+                      const meaningText = pickByLang(lang, m.meaning_en, m.meaning_gr)
                       return (
                         <li key={m.id}>
                           <div>
@@ -250,10 +244,7 @@ export default async function WordPage({
                           {examples.length > 0 && (
                             <ul className="mt-3 ml-6 space-y-3 border-l-2 border-gray-200 dark:border-gray-800 pl-4">
                               {examples.map((s) => {
-                                const translation =
-                                  lang === 'gr'
-                                    ? s.greek || s.english
-                                    : s.english || s.greek
+                                const translation = pickByLang(lang, s.english, s.greek)
                                 return (
                                   <li key={s.key}>
                                     <p className="text-lg">

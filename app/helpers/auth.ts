@@ -7,7 +7,9 @@ const sign = (v: string) => createHmac('sha256', secret!).update(v).digest()
 
 const cookieOpts = {
   httpOnly: true,
-  secure: process.env.NODE_ENV === 'production',
+  secure:
+    process.env.NODE_ENV === 'production' &&
+    process.env.INSECURE_COOKIES_FOR_TESTS !== '1',
   sameSite: 'lax' as const,
   path: '/',
   maxAge: 60 * 60 * 24 * 7,

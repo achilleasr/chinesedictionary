@@ -69,7 +69,7 @@ export default function DictionarySearch({
   }, [query, lang])
 
   const chip =
-    'flex max-w-[14rem] flex-col rounded border bg-white px-3 py-2 hover:border-red-500 hover:text-red-500 dark:bg-gray-900'
+    'flex max-w-[14rem] flex-col rounded border bg-gray-900 px-3 py-2 hover:border-red-500 hover:text-red-500'
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -79,7 +79,7 @@ export default function DictionarySearch({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={placeholder}
-        className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-lg text-gray-900 outline-none focus:border-red-500 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+        className="w-full rounded-lg border border-gray-700 bg-gray-900 px-4 py-3 text-lg text-gray-100 outline-none focus:border-red-500"
       />
 
       <div className={`mt-4 space-y-3 transition-opacity ${loading ? 'opacity-60' : ''}`}>
@@ -89,16 +89,16 @@ export default function DictionarySearch({
               <Link
                 key={`r${r.id}`}
                 href={`/radical/${r.id}${qs}`}
-                className={`${chip} border-dashed border-red-300 dark:border-red-900`}
+                className={`${chip} border-dashed border-red-900`}
               >
-                <span className="text-gray-900 dark:text-gray-100">
+                <span className="text-gray-100">
                   <span className="text-2xl">{r.character}</span>{' '}
                   <span className="text-sm text-gray-400">
                     {r.pinyin ? `${r.pinyin} ` : ''}R{r.id}
                   </span>
                 </span>
                 {r.meaning && (
-                  <span className="truncate text-xs text-gray-500 dark:text-gray-400">
+                  <span className="truncate text-xs text-gray-400">
                     {r.meaning}
                   </span>
                 )}
@@ -113,14 +113,14 @@ export default function DictionarySearch({
               <Link
                 key={`w${w.id}`}
                 href={`/word/${w.id}${qs}`}
-                className={`${chip} border-gray-300 dark:border-gray-700`}
+                className={`${chip} border-gray-700`}
               >
-                <span className="text-gray-900 dark:text-gray-100">
+                <span className="text-gray-100">
                   <span className="text-2xl">{w.hanzi}</span>{' '}
                   <span className="text-sm text-gray-400">{w.pinyin}</span>
                 </span>
                 {w.meaning && (
-                  <span className="truncate text-xs text-gray-500 dark:text-gray-400">
+                  <span className="truncate text-xs text-gray-400">
                     {w.meaning}
                   </span>
                 )}
