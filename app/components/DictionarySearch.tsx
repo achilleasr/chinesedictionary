@@ -28,16 +28,24 @@ export default function DictionarySearch({
   const qs = lang === 'gr' ? '?lang=gr' : ''
   const abortRef = useRef<AbortController | null>(null)
 
-  useEffect(() => {
-    const q = query.trim()
-    if (!q) {
+  // Runs when the user types. Clearing the box is handled here (an event),
+  // not in the effect, so the effect never calls setState synchronously.
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const value = e.target.value
+    setQuery(value)
+
+    if (!value.trim()) {
       abortRef.current?.abort()
       setWords([])
       setRadicals([])
       setSearched(false)
       setLoading(false)
-      return
     }
+  }
+
+  useEffect(() => {
+    const q = query.trim()
+    if (!q) return
 
     const timer = setTimeout(async () => {
       abortRef.current?.abort()
@@ -77,7 +85,7 @@ export default function DictionarySearch({
         type="search"
         autoFocus
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={handleChange}
         placeholder={placeholder}
         className="w-full rounded-lg border border-gray-700 bg-gray-900 px-4 py-3 text-lg text-gray-100 outline-none focus:border-red-500"
       />

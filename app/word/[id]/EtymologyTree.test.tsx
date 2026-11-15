@@ -2,12 +2,13 @@ import { describe, it, expect, vi } from 'vitest'
 import { renderToStaticMarkup } from 'react-dom/server'
 import EtymologyTree, { type EtymRow } from './EtymologyTree'
 import type { Lang } from '@/app/helpers/i18n'
+import type { ComponentProps } from 'react'
 
 // Render next/link as a plain <a> so the test doesn't depend on Next internals
 vi.mock('next/link', async () => {
   const { createElement } = await import('react')
   return {
-    default: ({ href, children, ...rest }: any) =>
+    default: ({ href, children, ...rest }: ComponentProps<'a'>) =>
       createElement('a', { href, ...rest }, children),
   }
 })
