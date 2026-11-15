@@ -1,5 +1,7 @@
 ## Chinese Greek English dictionary with component breakdowns
 
+![CI](https://github.com/achilleasr/chinesedictionary/actions/workflows/ci.yml/badge.svg)
+
 A dictionary with recursive component breakdowns: every word is traced down through its components to the 214 Kangxi radicals.
  
 **Live:** [chinesegreek.vercel.app](https://chinesegreek.vercel.app)
