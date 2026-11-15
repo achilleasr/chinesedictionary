@@ -1,0 +1,30 @@
+services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: devpassword
+      POSTGRES_DB: chinese_dictionary
+    volumes:
+      - pgdata:/var/lib/postgresql
+      - ./database:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U postgres -d chinese_dictionary"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgres://postgres:devpassword@db:5432/chinese_dictionary
+      AUTH_SECRET: local-docker-only-secret
+      TEACHER_PASSWORD: local-docker-only-password
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:
