@@ -51,3 +51,10 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 14
+  docker-build:
+    name: Docker image builds
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t chinese-dictionary:ci .
